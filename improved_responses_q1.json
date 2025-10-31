@@ -1,0 +1,952 @@
+[
+  {
+    "persona_id": 1,
+    "persona": {
+      "id": 1,
+      "age": 33,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Journalist",
+      "education": "Master",
+      "political_leaning": "Left",
+      "description": "Rural Male aged 33 from Bern canton. Journalist who appreciates sustainability and traditional Swiss culture."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.3271942138671875,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 2,
+    "persona": {
+      "id": 2,
+      "age": 38,
+      "gender": "Female",
+      "canton": "Thurgau",
+      "language": "German",
+      "occupation": "Farmer",
+      "education": "Vocational Training",
+      "political_leaning": "Center-Right",
+      "description": "Rural Female aged 38 from Thurgau canton. Farmer who appreciates freedom and traditional Swiss culture."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.31430482864379883,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 3,
+    "persona": {
+      "id": 3,
+      "age": 18,
+      "gender": "Non-binary",
+      "canton": "Fribourg",
+      "language": "French",
+      "occupation": "Farmer",
+      "education": "Compulsory School",
+      "political_leaning": "Right",
+      "description": "From the countryside of Fribourg, this 18-year-old Non-binary works in Farmer. Values tradition and enjoys gardening."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.35511350631713867,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 4,
+    "persona": {
+      "id": 4,
+      "age": 53,
+      "gender": "Female",
+      "canton": "Lucerne",
+      "language": "German",
+      "occupation": "Journalist",
+      "education": "Bachelor",
+      "political_leaning": "Center",
+      "description": "Rural Female aged 53 from Lucerne canton. Journalist who appreciates security and traditional Swiss culture."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.22542071342468262,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 5,
+    "persona": {
+      "id": 5,
+      "age": 80,
+      "gender": "Female",
+      "canton": "Fribourg",
+      "language": "French",
+      "occupation": "Engineer",
+      "education": "High School",
+      "political_leaning": "Center-Right",
+      "description": "From the countryside of Fribourg, this 80-year-old Female works in Engineer. Values tradition and enjoys volunteering."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.21336936950683594,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 6,
+    "persona": {
+      "id": 6,
+      "age": 50,
+      "gender": "Female",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Accountant",
+      "education": "Bachelor",
+      "political_leaning": "Right",
+      "description": "A 50-year-old Female from rural Zurich. Works as Accountant and values innovation. Enjoys gardening and community life."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.2791330814361572,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 7,
+    "persona": {
+      "id": 7,
+      "age": 62,
+      "gender": "Male",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Mechanic",
+      "education": "High School",
+      "political_leaning": "Left",
+      "description": "A 62-year-old Male from rural Vaud. Works as Mechanic and values tradition. Enjoys gardening and community life."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.21743416786193848,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 8,
+    "persona": {
+      "id": 8,
+      "age": 88,
+      "gender": "Non-binary",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Artist",
+      "education": "PhD",
+      "political_leaning": "Right",
+      "description": "Rural Non-binary aged 88 from Aargau canton. Artist who appreciates family and traditional Swiss culture."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.24066424369812012,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 9,
+    "persona": {
+      "id": 9,
+      "age": 26,
+      "gender": "Male",
+      "canton": "Fribourg",
+      "language": "French",
+      "occupation": "Accountant",
+      "education": "PhD",
+      "political_leaning": "Left",
+      "description": "Rural Male aged 26 from Fribourg canton. Accountant who appreciates innovation and traditional Swiss culture."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.22297954559326172,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 10,
+    "persona": {
+      "id": 10,
+      "age": 31,
+      "gender": "Male",
+      "canton": "Basel-Stadt",
+      "language": "German",
+      "occupation": "Accountant",
+      "education": "Compulsory School",
+      "political_leaning": "Right",
+      "description": "A 31-year-old Male from rural Basel-Stadt. Works as Accountant and values sustainability. Enjoys classical music and community life."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.32642221450805664,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 11,
+    "persona": {
+      "id": 11,
+      "age": 86,
+      "gender": "Female",
+      "canton": "Geneva",
+      "language": "French",
+      "occupation": "Pharmacist",
+      "education": "Bachelor",
+      "political_leaning": "Center-Right",
+      "description": "A 86-year-old Female from Geneva who works as a Pharmacist and values family. Lives in the city and enjoys classical music."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.22074151039123535,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 12,
+    "persona": {
+      "id": 12,
+      "age": 51,
+      "gender": "Female",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Banker",
+      "education": "High School",
+      "political_leaning": "Left",
+      "description": "From the countryside of Aargau, this 51-year-old Female works in Banker. Values quality and enjoys local politics."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.22172021865844727,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 13,
+    "persona": {
+      "id": 13,
+      "age": 78,
+      "gender": "Non-binary",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Teacher",
+      "education": "Bachelor",
+      "political_leaning": "Left",
+      "description": "From the countryside of Bern, this 78-year-old Non-binary works in Teacher. Values security and enjoys technology."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.23378610610961914,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 14,
+    "persona": {
+      "id": 14,
+      "age": 66,
+      "gender": "Non-binary",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Student",
+      "education": "High School",
+      "political_leaning": "Left",
+      "description": "From the countryside of Aargau, this 66-year-old Non-binary works in Student. Values innovation and enjoys watching football."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.23214030265808105,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 15,
+    "persona": {
+      "id": 15,
+      "age": 80,
+      "gender": "Male",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Social Worker",
+      "education": "Vocational Training",
+      "political_leaning": "Apolitical",
+      "description": "From the countryside of Zurich, this 80-year-old Male works in Social Worker. Values family and enjoys hiking in the Alps."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.23510026931762695,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 16,
+    "persona": {
+      "id": 16,
+      "age": 43,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Retired",
+      "education": "Vocational Training",
+      "political_leaning": "Apolitical",
+      "description": "City-dweller from Bern, 43 years old. Retired who cares deeply about security and spends free time technology."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.3465142250061035,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 17,
+    "persona": {
+      "id": 17,
+      "age": 28,
+      "gender": "Female",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Electrician",
+      "education": "Vocational Training",
+      "political_leaning": "Center-Left",
+      "description": "City-dweller from Zurich, 28 years old. Electrician who cares deeply about efficiency and spends free time reading."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.32227301597595215,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 18,
+    "persona": {
+      "id": 18,
+      "age": 32,
+      "gender": "Male",
+      "canton": "Lucerne",
+      "language": "German",
+      "occupation": "Artist",
+      "education": "Vocational Training",
+      "political_leaning": "Center-Left",
+      "description": "Rural Male aged 32 from Lucerne canton. Artist who appreciates innovation and traditional Swiss culture."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.31983470916748047,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 19,
+    "persona": {
+      "id": 19,
+      "age": 25,
+      "gender": "Non-binary",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Engineer",
+      "education": "Compulsory School",
+      "political_leaning": "Apolitical",
+      "description": "A 25-year-old Non-binary from Bern who works as a Engineer and values privacy. Lives in the city and enjoys skiing."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.32013487815856934,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 20,
+    "persona": {
+      "id": 20,
+      "age": 31,
+      "gender": "Male",
+      "canton": "Lucerne",
+      "language": "German",
+      "occupation": "Artist",
+      "education": "Vocational Training",
+      "political_leaning": "Right",
+      "description": "Rural Male aged 31 from Lucerne canton. Artist who appreciates quality and traditional Swiss culture."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.3572697639465332,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 21,
+    "persona": {
+      "id": 21,
+      "age": 83,
+      "gender": "Female",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Social Worker",
+      "education": "Compulsory School",
+      "political_leaning": "Left",
+      "description": "Rural Female aged 83 from Vaud canton. Social Worker who appreciates tradition and traditional Swiss culture."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.36060023307800293,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 22,
+    "persona": {
+      "id": 22,
+      "age": 67,
+      "gender": "Male",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Nurse",
+      "education": "Vocational Training",
+      "political_leaning": "Left",
+      "description": "City-dweller from Vaud, 67 years old. Nurse who cares deeply about privacy and spends free time classical music."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.31054162979125977,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 23,
+    "persona": {
+      "id": 23,
+      "age": 59,
+      "gender": "Male",
+      "canton": "Fribourg",
+      "language": "French",
+      "occupation": "Electrician",
+      "education": "Compulsory School",
+      "political_leaning": "Right",
+      "description": "From the countryside of Fribourg, this 59-year-old Male works in Electrician. Values quality and enjoys hiking in the Alps."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.3233907222747803,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 24,
+    "persona": {
+      "id": 24,
+      "age": 19,
+      "gender": "Male",
+      "canton": "Geneva",
+      "language": "French",
+      "occupation": "Mechanic",
+      "education": "Compulsory School",
+      "political_leaning": "Left",
+      "description": "A 19-year-old Male from rural Geneva. Works as Mechanic and values family. Enjoys hiking in the Alps and community life."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.36119699478149414,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 25,
+    "persona": {
+      "id": 25,
+      "age": 90,
+      "gender": "Female",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Chef",
+      "education": "Vocational Training",
+      "political_leaning": "Right",
+      "description": "A 90-year-old Female from rural Bern. Works as Chef and values efficiency. Enjoys hiking in the Alps and community life."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.3158681392669678,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 26,
+    "persona": {
+      "id": 26,
+      "age": 52,
+      "gender": "Female",
+      "canton": "Solothurn",
+      "language": "German",
+      "occupation": "Artist",
+      "education": "High School",
+      "political_leaning": "Left",
+      "description": "Rural Female aged 52 from Solothurn canton. Artist who appreciates privacy and traditional Swiss culture."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.3255453109741211,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 27,
+    "persona": {
+      "id": 27,
+      "age": 87,
+      "gender": "Female",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Lawyer",
+      "education": "Master",
+      "political_leaning": "Center-Right",
+      "description": "Urban professional Female aged 87 from Bern. Working in Lawyer with Master background. Passionate about community."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.28322362899780273,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 28,
+    "persona": {
+      "id": 28,
+      "age": 86,
+      "gender": "Male",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Journalist",
+      "education": "Bachelor",
+      "political_leaning": "Right",
+      "description": "A 86-year-old Male from Zurich who works as a Journalist and values innovation. Lives in the city and enjoys reading."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.3732283115386963,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 29,
+    "persona": {
+      "id": 29,
+      "age": 31,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Chef",
+      "education": "PhD",
+      "political_leaning": "Center",
+      "description": "A 31-year-old Male from Bern who works as a Chef and values sustainability. Lives in the city and enjoys cooking traditional Swiss food."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.31166553497314453,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 30,
+    "persona": {
+      "id": 30,
+      "age": 62,
+      "gender": "Male",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Scientist",
+      "education": "PhD",
+      "political_leaning": "Left",
+      "description": "A 62-year-old Male from rural Vaud. Works as Scientist and values family. Enjoys hiking in the Alps and community life."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.3663148880004883,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 31,
+    "persona": {
+      "id": 31,
+      "age": 67,
+      "gender": "Female",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Entrepreneur",
+      "education": "High School",
+      "political_leaning": "Center-Right",
+      "description": "A 67-year-old Female from rural Aargau. Works as Entrepreneur and values innovation. Enjoys cooking traditional Swiss food and community life."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.35581278800964355,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 32,
+    "persona": {
+      "id": 32,
+      "age": 83,
+      "gender": "Non-binary",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Student",
+      "education": "High School",
+      "political_leaning": "Right",
+      "description": "Rural Non-binary aged 83 from Zurich canton. Student who appreciates innovation and traditional Swiss culture."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.30417656898498535,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 33,
+    "persona": {
+      "id": 33,
+      "age": 54,
+      "gender": "Non-binary",
+      "canton": "Geneva",
+      "language": "French",
+      "occupation": "Nurse",
+      "education": "Compulsory School",
+      "political_leaning": "Right",
+      "description": "Urban professional Non-binary aged 54 from Geneva. Working in Nurse with Compulsory School background. Passionate about family."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.3168349266052246,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 34,
+    "persona": {
+      "id": 34,
+      "age": 46,
+      "gender": "Non-binary",
+      "canton": "Thurgau",
+      "language": "German",
+      "occupation": "Engineer",
+      "education": "PhD",
+      "political_leaning": "Center",
+      "description": "From the countryside of Thurgau, this 46-year-old Non-binary works in Engineer. Values community and enjoys classical music."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.30348682403564453,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 35,
+    "persona": {
+      "id": 35,
+      "age": 54,
+      "gender": "Non-binary",
+      "canton": "Lucerne",
+      "language": "German",
+      "occupation": "Entrepreneur",
+      "education": "PhD",
+      "political_leaning": "Center-Right",
+      "description": "Rural Non-binary aged 54 from Lucerne canton. Entrepreneur who appreciates quality and traditional Swiss culture."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.23424792289733887,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 36,
+    "persona": {
+      "id": 36,
+      "age": 37,
+      "gender": "Female",
+      "canton": "Ticino",
+      "language": "Italian",
+      "occupation": "Student",
+      "education": "High School",
+      "political_leaning": "Center",
+      "description": "A 37-year-old Female from rural Ticino. Works as Student and values quality. Enjoys hiking in the Alps and community life."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.3309597969055176,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 37,
+    "persona": {
+      "id": 37,
+      "age": 27,
+      "gender": "Female",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Journalist",
+      "education": "PhD",
+      "political_leaning": "Right",
+      "description": "Urban professional Female aged 27 from Zurich. Working in Journalist with PhD background. Passionate about security."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.2978336811065674,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 38,
+    "persona": {
+      "id": 38,
+      "age": 61,
+      "gender": "Non-binary",
+      "canton": "Graubünden",
+      "language": "German",
+      "occupation": "Retired",
+      "education": "Compulsory School",
+      "political_leaning": "Right",
+      "description": "A 61-year-old Non-binary from rural Graubünden. Works as Retired and values tradition. Enjoys gardening and community life."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.22332525253295898,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 39,
+    "persona": {
+      "id": 39,
+      "age": 27,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Farmer",
+      "education": "PhD",
+      "political_leaning": "Center",
+      "description": "A 27-year-old Male from Bern who works as a Farmer and values family. Lives in the city and enjoys classical music."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.2506730556488037,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 40,
+    "persona": {
+      "id": 40,
+      "age": 65,
+      "gender": "Male",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Electrician",
+      "education": "Master",
+      "political_leaning": "Left",
+      "description": "Urban professional Male aged 65 from Zurich. Working in Electrician with Master background. Passionate about security."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.20717239379882812,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 41,
+    "persona": {
+      "id": 41,
+      "age": 59,
+      "gender": "Female",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Pharmacist",
+      "education": "Bachelor",
+      "political_leaning": "Right",
+      "description": "A 59-year-old Female from Bern who works as a Pharmacist and values quality. Lives in the city and enjoys gardening."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.3262202739715576,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 42,
+    "persona": {
+      "id": 42,
+      "age": 52,
+      "gender": "Female",
+      "canton": "Ticino",
+      "language": "Italian",
+      "occupation": "Engineer",
+      "education": "Vocational Training",
+      "political_leaning": "Center",
+      "description": "A 52-year-old Female from rural Ticino. Works as Engineer and values freedom. Enjoys local politics and community life."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.36281514167785645,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 43,
+    "persona": {
+      "id": 43,
+      "age": 51,
+      "gender": "Non-binary",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Mechanic",
+      "education": "Compulsory School",
+      "political_leaning": "Left",
+      "description": "Rural Non-binary aged 51 from Aargau canton. Mechanic who appreciates efficiency and traditional Swiss culture."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.33101797103881836,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 44,
+    "persona": {
+      "id": 44,
+      "age": 37,
+      "gender": "Non-binary",
+      "canton": "St. Gallen",
+      "language": "German",
+      "occupation": "Electrician",
+      "education": "Bachelor",
+      "political_leaning": "Left",
+      "description": "From the countryside of St. Gallen, this 37-year-old Non-binary works in Electrician. Values quality and enjoys volunteering."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.3231654167175293,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 45,
+    "persona": {
+      "id": 45,
+      "age": 82,
+      "gender": "Non-binary",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Chef",
+      "education": "High School",
+      "political_leaning": "Left",
+      "description": "From the countryside of Vaud, this 82-year-old Non-binary works in Chef. Values sustainability and enjoys cooking traditional Swiss food."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.22904706001281738,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 46,
+    "persona": {
+      "id": 46,
+      "age": 61,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Mechanic",
+      "education": "Master",
+      "political_leaning": "Center",
+      "description": "A 61-year-old Male from Bern who works as a Mechanic and values efficiency. Lives in the city and enjoys technology."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.3681628704071045,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 47,
+    "persona": {
+      "id": 47,
+      "age": 40,
+      "gender": "Female",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Teacher",
+      "education": "Vocational Training",
+      "political_leaning": "Apolitical",
+      "description": "A 40-year-old Female from rural Aargau. Works as Teacher and values tradition. Enjoys gardening and community life."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.2709686756134033,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 48,
+    "persona": {
+      "id": 48,
+      "age": 45,
+      "gender": "Male",
+      "canton": "Schwyz",
+      "language": "German",
+      "occupation": "Architect",
+      "education": "PhD",
+      "political_leaning": "Left",
+      "description": "From the countryside of Schwyz, this 45-year-old Male works in Architect. Values tradition and enjoys gardening."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.36286401748657227,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 49,
+    "persona": {
+      "id": 49,
+      "age": 46,
+      "gender": "Female",
+      "canton": "Geneva",
+      "language": "French",
+      "occupation": "Retired",
+      "education": "Vocational Training",
+      "political_leaning": "Center-Right",
+      "description": "City-dweller from Geneva, 46 years old. Retired who cares deeply about sustainability and spends free time reading."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.3128387928009033,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  },
+  {
+    "persona_id": 50,
+    "persona": {
+      "id": 50,
+      "age": 61,
+      "gender": "Non-binary",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Artist",
+      "education": "Master",
+      "political_leaning": "Left",
+      "description": "A 61-year-old Non-binary from Vaud who works as a Artist and values innovation. Lives in the city and enjoys technology."
+    },
+    "question": "What is your preferred political party in next Swiss election? A) SVP B) SP C) FDP D) Green Party",
+    "answer": "",
+    "response_time": 0.3607316017150879,
+    "success": false,
+    "error_message": "Invalid format after 3 attempts: "
+  }
+]

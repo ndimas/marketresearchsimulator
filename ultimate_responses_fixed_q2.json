@@ -1,0 +1,1902 @@
+[
+  {
+    "persona_id": 1,
+    "persona": {
+      "id": 1,
+      "age": 33,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Journalist",
+      "education": "Master",
+      "political_leaning": "Left",
+      "description": "Rural Male aged 33 from Bern canton. Journalist who appreciates sustainability and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.550475835800171,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 2,
+    "persona": {
+      "id": 2,
+      "age": 38,
+      "gender": "Female",
+      "canton": "Thurgau",
+      "language": "German",
+      "occupation": "Farmer",
+      "education": "Vocational Training",
+      "political_leaning": "Center-Right",
+      "description": "Rural Female aged 38 from Thurgau canton. Farmer who appreciates freedom and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.918593168258667,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 3,
+    "persona": {
+      "id": 3,
+      "age": 18,
+      "gender": "Non-binary",
+      "canton": "Fribourg",
+      "language": "French",
+      "occupation": "Farmer",
+      "education": "Compulsory School",
+      "political_leaning": "Right",
+      "description": "From the countryside of Fribourg, this 18-year-old Non-binary works in Farmer. Values tradition and enjoys gardening."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.070127964019775,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 4,
+    "persona": {
+      "id": 4,
+      "age": 53,
+      "gender": "Female",
+      "canton": "Lucerne",
+      "language": "German",
+      "occupation": "Journalist",
+      "education": "Bachelor",
+      "political_leaning": "Center",
+      "description": "Rural Female aged 53 from Lucerne canton. Journalist who appreciates security and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.863824129104614,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 5,
+    "persona": {
+      "id": 5,
+      "age": 80,
+      "gender": "Female",
+      "canton": "Fribourg",
+      "language": "French",
+      "occupation": "Engineer",
+      "education": "High School",
+      "political_leaning": "Center-Right",
+      "description": "From the countryside of Fribourg, this 80-year-old Female works in Engineer. Values tradition and enjoys volunteering."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 5.167815446853638,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 6,
+    "persona": {
+      "id": 6,
+      "age": 50,
+      "gender": "Female",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Accountant",
+      "education": "Bachelor",
+      "political_leaning": "Right",
+      "description": "A 50-year-old Female from rural Zurich. Works as Accountant and values innovation. Enjoys gardening and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.224454402923584,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 7,
+    "persona": {
+      "id": 7,
+      "age": 62,
+      "gender": "Male",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Mechanic",
+      "education": "High School",
+      "political_leaning": "Left",
+      "description": "A 62-year-old Male from rural Vaud. Works as Mechanic and values tradition. Enjoys gardening and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.8661210536956787,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 8,
+    "persona": {
+      "id": 8,
+      "age": 88,
+      "gender": "Non-binary",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Artist",
+      "education": "PhD",
+      "political_leaning": "Right",
+      "description": "Rural Non-binary aged 88 from Aargau canton. Artist who appreciates family and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.742572546005249,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 9,
+    "persona": {
+      "id": 9,
+      "age": 26,
+      "gender": "Male",
+      "canton": "Fribourg",
+      "language": "French",
+      "occupation": "Accountant",
+      "education": "PhD",
+      "political_leaning": "Left",
+      "description": "Rural Male aged 26 from Fribourg canton. Accountant who appreciates innovation and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.069183349609375,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 10,
+    "persona": {
+      "id": 10,
+      "age": 31,
+      "gender": "Male",
+      "canton": "Basel-Stadt",
+      "language": "German",
+      "occupation": "Accountant",
+      "education": "Compulsory School",
+      "political_leaning": "Right",
+      "description": "A 31-year-old Male from rural Basel-Stadt. Works as Accountant and values sustainability. Enjoys classical music and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.688102722167969,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 11,
+    "persona": {
+      "id": 11,
+      "age": 86,
+      "gender": "Female",
+      "canton": "Geneva",
+      "language": "French",
+      "occupation": "Pharmacist",
+      "education": "Bachelor",
+      "political_leaning": "Center-Right",
+      "description": "A 86-year-old Female from Geneva who works as a Pharmacist and values family. Lives in the city and enjoys classical music."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 5.387228965759277,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 12,
+    "persona": {
+      "id": 12,
+      "age": 51,
+      "gender": "Female",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Banker",
+      "education": "High School",
+      "political_leaning": "Left",
+      "description": "From the countryside of Aargau, this 51-year-old Female works in Banker. Values quality and enjoys local politics."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "B",
+    "response_time": 5.506872892379761,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 13,
+    "persona": {
+      "id": 13,
+      "age": 78,
+      "gender": "Non-binary",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Teacher",
+      "education": "Bachelor",
+      "political_leaning": "Left",
+      "description": "From the countryside of Bern, this 78-year-old Non-binary works in Teacher. Values security and enjoys technology."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.273194074630737,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 14,
+    "persona": {
+      "id": 14,
+      "age": 66,
+      "gender": "Non-binary",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Student",
+      "education": "High School",
+      "political_leaning": "Left",
+      "description": "From the countryside of Aargau, this 66-year-old Non-binary works in Student. Values innovation and enjoys watching football."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.226596832275391,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 15,
+    "persona": {
+      "id": 15,
+      "age": 80,
+      "gender": "Male",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Social Worker",
+      "education": "Vocational Training",
+      "political_leaning": "Apolitical",
+      "description": "From the countryside of Zurich, this 80-year-old Male works in Social Worker. Values family and enjoys hiking in the Alps."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "C",
+    "response_time": 5.5570104122161865,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 16,
+    "persona": {
+      "id": 16,
+      "age": 43,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Retired",
+      "education": "Vocational Training",
+      "political_leaning": "Apolitical",
+      "description": "City-dweller from Bern, 43 years old. Retired who cares deeply about security and spends free time technology."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.9113855361938477,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 17,
+    "persona": {
+      "id": 17,
+      "age": 28,
+      "gender": "Female",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Electrician",
+      "education": "Vocational Training",
+      "political_leaning": "Center-Left",
+      "description": "City-dweller from Zurich, 28 years old. Electrician who cares deeply about efficiency and spends free time reading."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.727526426315308,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 18,
+    "persona": {
+      "id": 18,
+      "age": 32,
+      "gender": "Male",
+      "canton": "Lucerne",
+      "language": "German",
+      "occupation": "Artist",
+      "education": "Vocational Training",
+      "political_leaning": "Center-Left",
+      "description": "Rural Male aged 32 from Lucerne canton. Artist who appreciates innovation and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.8592681884765625,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 19,
+    "persona": {
+      "id": 19,
+      "age": 25,
+      "gender": "Non-binary",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Engineer",
+      "education": "Compulsory School",
+      "political_leaning": "Apolitical",
+      "description": "A 25-year-old Non-binary from Bern who works as a Engineer and values privacy. Lives in the city and enjoys skiing."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.9117417335510254,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 20,
+    "persona": {
+      "id": 20,
+      "age": 31,
+      "gender": "Male",
+      "canton": "Lucerne",
+      "language": "German",
+      "occupation": "Artist",
+      "education": "Vocational Training",
+      "political_leaning": "Right",
+      "description": "Rural Male aged 31 from Lucerne canton. Artist who appreciates quality and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.316870212554932,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 21,
+    "persona": {
+      "id": 21,
+      "age": 83,
+      "gender": "Female",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Social Worker",
+      "education": "Compulsory School",
+      "political_leaning": "Left",
+      "description": "Rural Female aged 83 from Vaud canton. Social Worker who appreciates tradition and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.314995527267456,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 22,
+    "persona": {
+      "id": 22,
+      "age": 67,
+      "gender": "Male",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Nurse",
+      "education": "Vocational Training",
+      "political_leaning": "Left",
+      "description": "City-dweller from Vaud, 67 years old. Nurse who cares deeply about privacy and spends free time classical music."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.864004373550415,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 23,
+    "persona": {
+      "id": 23,
+      "age": 59,
+      "gender": "Male",
+      "canton": "Fribourg",
+      "language": "French",
+      "occupation": "Electrician",
+      "education": "Compulsory School",
+      "political_leaning": "Right",
+      "description": "From the countryside of Fribourg, this 59-year-old Male works in Electrician. Values quality and enjoys hiking in the Alps."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.599307298660278,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 24,
+    "persona": {
+      "id": 24,
+      "age": 19,
+      "gender": "Male",
+      "canton": "Geneva",
+      "language": "French",
+      "occupation": "Mechanic",
+      "education": "Compulsory School",
+      "political_leaning": "Left",
+      "description": "A 19-year-old Male from rural Geneva. Works as Mechanic and values family. Enjoys hiking in the Alps and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.82143235206604,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 25,
+    "persona": {
+      "id": 25,
+      "age": 90,
+      "gender": "Female",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Chef",
+      "education": "Vocational Training",
+      "political_leaning": "Right",
+      "description": "A 90-year-old Female from rural Bern. Works as Chef and values efficiency. Enjoys hiking in the Alps and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.2695863246917725,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 26,
+    "persona": {
+      "id": 26,
+      "age": 52,
+      "gender": "Female",
+      "canton": "Solothurn",
+      "language": "German",
+      "occupation": "Artist",
+      "education": "High School",
+      "political_leaning": "Left",
+      "description": "Rural Female aged 52 from Solothurn canton. Artist who appreciates privacy and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.5501511096954346,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 27,
+    "persona": {
+      "id": 27,
+      "age": 87,
+      "gender": "Female",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Lawyer",
+      "education": "Master",
+      "political_leaning": "Center-Right",
+      "description": "Urban professional Female aged 87 from Bern. Working in Lawyer with Master background. Passionate about community."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "B",
+    "response_time": 5.6838366985321045,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 28,
+    "persona": {
+      "id": 28,
+      "age": 86,
+      "gender": "Male",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Journalist",
+      "education": "Bachelor",
+      "political_leaning": "Right",
+      "description": "A 86-year-old Male from Zurich who works as a Journalist and values innovation. Lives in the city and enjoys reading."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 5.461198329925537,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 29,
+    "persona": {
+      "id": 29,
+      "age": 31,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Chef",
+      "education": "PhD",
+      "political_leaning": "Center",
+      "description": "A 31-year-old Male from Bern who works as a Chef and values sustainability. Lives in the city and enjoys cooking traditional Swiss food."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.311689615249634,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 30,
+    "persona": {
+      "id": 30,
+      "age": 62,
+      "gender": "Male",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Scientist",
+      "education": "PhD",
+      "political_leaning": "Left",
+      "description": "A 62-year-old Male from rural Vaud. Works as Scientist and values family. Enjoys hiking in the Alps and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.947272300720215,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 31,
+    "persona": {
+      "id": 31,
+      "age": 67,
+      "gender": "Female",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Entrepreneur",
+      "education": "High School",
+      "political_leaning": "Center-Right",
+      "description": "A 67-year-old Female from rural Aargau. Works as Entrepreneur and values innovation. Enjoys cooking traditional Swiss food and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.7308313846588135,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 32,
+    "persona": {
+      "id": 32,
+      "age": 83,
+      "gender": "Non-binary",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Student",
+      "education": "High School",
+      "political_leaning": "Right",
+      "description": "Rural Non-binary aged 83 from Zurich canton. Student who appreciates innovation and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.864331960678101,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 33,
+    "persona": {
+      "id": 33,
+      "age": 54,
+      "gender": "Non-binary",
+      "canton": "Geneva",
+      "language": "French",
+      "occupation": "Nurse",
+      "education": "Compulsory School",
+      "political_leaning": "Right",
+      "description": "Urban professional Non-binary aged 54 from Geneva. Working in Nurse with Compulsory School background. Passionate about family."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.161072015762329,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 34,
+    "persona": {
+      "id": 34,
+      "age": 46,
+      "gender": "Non-binary",
+      "canton": "Thurgau",
+      "language": "German",
+      "occupation": "Engineer",
+      "education": "PhD",
+      "political_leaning": "Center",
+      "description": "From the countryside of Thurgau, this 46-year-old Non-binary works in Engineer. Values community and enjoys classical music."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.6395063400268555,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 35,
+    "persona": {
+      "id": 35,
+      "age": 54,
+      "gender": "Non-binary",
+      "canton": "Lucerne",
+      "language": "German",
+      "occupation": "Entrepreneur",
+      "education": "PhD",
+      "political_leaning": "Center-Right",
+      "description": "Rural Non-binary aged 54 from Lucerne canton. Entrepreneur who appreciates quality and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 5.07373833656311,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 36,
+    "persona": {
+      "id": 36,
+      "age": 37,
+      "gender": "Female",
+      "canton": "Ticino",
+      "language": "Italian",
+      "occupation": "Student",
+      "education": "High School",
+      "political_leaning": "Center",
+      "description": "A 37-year-old Female from rural Ticino. Works as Student and values quality. Enjoys hiking in the Alps and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.639159917831421,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 37,
+    "persona": {
+      "id": 37,
+      "age": 27,
+      "gender": "Female",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Journalist",
+      "education": "PhD",
+      "political_leaning": "Right",
+      "description": "Urban professional Female aged 27 from Zurich. Working in Journalist with PhD background. Passionate about security."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.494967699050903,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 38,
+    "persona": {
+      "id": 38,
+      "age": 61,
+      "gender": "Non-binary",
+      "canton": "Graubünden",
+      "language": "German",
+      "occupation": "Retired",
+      "education": "Compulsory School",
+      "political_leaning": "Right",
+      "description": "A 61-year-old Non-binary from rural Graubünden. Works as Retired and values tradition. Enjoys gardening and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.896515846252441,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 39,
+    "persona": {
+      "id": 39,
+      "age": 27,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Farmer",
+      "education": "PhD",
+      "political_leaning": "Center",
+      "description": "A 27-year-old Male from Bern who works as a Farmer and values family. Lives in the city and enjoys classical music."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.71383261680603,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 40,
+    "persona": {
+      "id": 40,
+      "age": 65,
+      "gender": "Male",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Electrician",
+      "education": "Master",
+      "political_leaning": "Left",
+      "description": "Urban professional Male aged 65 from Zurich. Working in Electrician with Master background. Passionate about security."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.213213682174683,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 41,
+    "persona": {
+      "id": 41,
+      "age": 59,
+      "gender": "Female",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Pharmacist",
+      "education": "Bachelor",
+      "political_leaning": "Right",
+      "description": "A 59-year-old Female from Bern who works as a Pharmacist and values quality. Lives in the city and enjoys gardening."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 5.067507266998291,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 42,
+    "persona": {
+      "id": 42,
+      "age": 52,
+      "gender": "Female",
+      "canton": "Ticino",
+      "language": "Italian",
+      "occupation": "Engineer",
+      "education": "Vocational Training",
+      "political_leaning": "Center",
+      "description": "A 52-year-old Female from rural Ticino. Works as Engineer and values freedom. Enjoys local politics and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.673791885375977,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 43,
+    "persona": {
+      "id": 43,
+      "age": 51,
+      "gender": "Non-binary",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Mechanic",
+      "education": "Compulsory School",
+      "political_leaning": "Left",
+      "description": "Rural Non-binary aged 51 from Aargau canton. Mechanic who appreciates efficiency and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.850409746170044,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 44,
+    "persona": {
+      "id": 44,
+      "age": 37,
+      "gender": "Non-binary",
+      "canton": "St. Gallen",
+      "language": "German",
+      "occupation": "Electrician",
+      "education": "Bachelor",
+      "political_leaning": "Left",
+      "description": "From the countryside of St. Gallen, this 37-year-old Non-binary works in Electrician. Values quality and enjoys volunteering."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.445743083953857,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 45,
+    "persona": {
+      "id": 45,
+      "age": 82,
+      "gender": "Non-binary",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Chef",
+      "education": "High School",
+      "political_leaning": "Left",
+      "description": "From the countryside of Vaud, this 82-year-old Non-binary works in Chef. Values sustainability and enjoys cooking traditional Swiss food."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.156351804733276,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 46,
+    "persona": {
+      "id": 46,
+      "age": 61,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Mechanic",
+      "education": "Master",
+      "political_leaning": "Center",
+      "description": "A 61-year-old Male from Bern who works as a Mechanic and values efficiency. Lives in the city and enjoys technology."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.672254323959351,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 47,
+    "persona": {
+      "id": 47,
+      "age": 40,
+      "gender": "Female",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Teacher",
+      "education": "Vocational Training",
+      "political_leaning": "Apolitical",
+      "description": "A 40-year-old Female from rural Aargau. Works as Teacher and values tradition. Enjoys gardening and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.902745008468628,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 48,
+    "persona": {
+      "id": 48,
+      "age": 45,
+      "gender": "Male",
+      "canton": "Schwyz",
+      "language": "German",
+      "occupation": "Architect",
+      "education": "PhD",
+      "political_leaning": "Left",
+      "description": "From the countryside of Schwyz, this 45-year-old Male works in Architect. Values tradition and enjoys gardening."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.401602029800415,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 49,
+    "persona": {
+      "id": 49,
+      "age": 46,
+      "gender": "Female",
+      "canton": "Geneva",
+      "language": "French",
+      "occupation": "Retired",
+      "education": "Vocational Training",
+      "political_leaning": "Center-Right",
+      "description": "City-dweller from Geneva, 46 years old. Retired who cares deeply about sustainability and spends free time reading."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.00273060798645,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 50,
+    "persona": {
+      "id": 50,
+      "age": 61,
+      "gender": "Non-binary",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Artist",
+      "education": "Master",
+      "political_leaning": "Left",
+      "description": "A 61-year-old Non-binary from Vaud who works as a Artist and values innovation. Lives in the city and enjoys technology."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.5903754234313965,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 51,
+    "persona": {
+      "id": 51,
+      "age": 32,
+      "gender": "Female",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Teacher",
+      "education": "High School",
+      "political_leaning": "Right",
+      "description": "A 32-year-old Female from rural Aargau. Works as Teacher and values sustainability. Enjoys watching football and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.767627239227295,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 52,
+    "persona": {
+      "id": 52,
+      "age": 77,
+      "gender": "Female",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Chef",
+      "education": "Vocational Training",
+      "political_leaning": "Left",
+      "description": "From the countryside of Bern, this 77-year-old Female works in Chef. Values privacy and enjoys hiking in the Alps."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "C",
+    "response_time": 4.670403718948364,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 53,
+    "persona": {
+      "id": 53,
+      "age": 25,
+      "gender": "Male",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Electrician",
+      "education": "Compulsory School",
+      "political_leaning": "Center-Right",
+      "description": "City-dweller from Zurich, 25 years old. Electrician who cares deeply about innovation and spends free time watching football."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.542670965194702,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 54,
+    "persona": {
+      "id": 54,
+      "age": 47,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Nurse",
+      "education": "PhD",
+      "political_leaning": "Left",
+      "description": "Urban professional Male aged 47 from Bern. Working in Nurse with PhD background. Passionate about family."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.9486775398254395,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 55,
+    "persona": {
+      "id": 55,
+      "age": 64,
+      "gender": "Male",
+      "canton": "Graubünden",
+      "language": "German",
+      "occupation": "Banker",
+      "education": "Master",
+      "political_leaning": "Left",
+      "description": "A 64-year-old Male from rural Graubünden. Works as Banker and values family. Enjoys local politics and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.8946638107299805,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 56,
+    "persona": {
+      "id": 56,
+      "age": 75,
+      "gender": "Female",
+      "canton": "Valais",
+      "language": "French",
+      "occupation": "Architect",
+      "education": "Master",
+      "political_leaning": "Center-Right",
+      "description": "From the countryside of Valais, this 75-year-old Female works in Architect. Values community and enjoys hiking in the Alps."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.849504232406616,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 57,
+    "persona": {
+      "id": 57,
+      "age": 20,
+      "gender": "Female",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Pharmacist",
+      "education": "Vocational Training",
+      "political_leaning": "Left",
+      "description": "From the countryside of Aargau, this 20-year-old Female works in Pharmacist. Values tradition and enjoys classical music."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.717266082763672,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 58,
+    "persona": {
+      "id": 58,
+      "age": 76,
+      "gender": "Female",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Retired",
+      "education": "High School",
+      "political_leaning": "Center",
+      "description": "A 76-year-old Female from Vaud who works as a Retired and values community. Lives in the city and enjoys volunteering."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.542294502258301,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 59,
+    "persona": {
+      "id": 59,
+      "age": 39,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Scientist",
+      "education": "PhD",
+      "political_leaning": "Center-Right",
+      "description": "Urban professional Male aged 39 from Bern. Working in Scientist with PhD background. Passionate about freedom."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.795727014541626,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 60,
+    "persona": {
+      "id": 60,
+      "age": 34,
+      "gender": "Male",
+      "canton": "Valais",
+      "language": "French",
+      "occupation": "Social Worker",
+      "education": "Bachelor",
+      "political_leaning": "Center-Left",
+      "description": "From the countryside of Valais, this 34-year-old Male works in Social Worker. Values tradition and enjoys reading."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.576512098312378,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 61,
+    "persona": {
+      "id": 61,
+      "age": 63,
+      "gender": "Female",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Scientist",
+      "education": "PhD",
+      "political_leaning": "Center",
+      "description": "Rural Female aged 63 from Aargau canton. Scientist who appreciates privacy and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.9315102100372314,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 62,
+    "persona": {
+      "id": 62,
+      "age": 57,
+      "gender": "Female",
+      "canton": "Neuchâtel",
+      "language": "French",
+      "occupation": "Architect",
+      "education": "Master",
+      "political_leaning": "Center-Right",
+      "description": "A 57-year-old Female from rural Neuchâtel. Works as Architect and values quality. Enjoys skiing and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.573907136917114,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 63,
+    "persona": {
+      "id": 63,
+      "age": 84,
+      "gender": "Female",
+      "canton": "Fribourg",
+      "language": "French",
+      "occupation": "Journalist",
+      "education": "Bachelor",
+      "political_leaning": "Center-Right",
+      "description": "Rural Female aged 84 from Fribourg canton. Journalist who appreciates innovation and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.841976642608643,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 64,
+    "persona": {
+      "id": 64,
+      "age": 59,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Artist",
+      "education": "Bachelor",
+      "political_leaning": "Center-Right",
+      "description": "Urban professional Male aged 59 from Bern. Working in Artist with Bachelor background. Passionate about tradition."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.7382454872131348,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 65,
+    "persona": {
+      "id": 65,
+      "age": 60,
+      "gender": "Female",
+      "canton": "Thurgau",
+      "language": "German",
+      "occupation": "Pharmacist",
+      "education": "Vocational Training",
+      "political_leaning": "Right",
+      "description": "Rural Female aged 60 from Thurgau canton. Pharmacist who appreciates quality and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.253407716751099,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 66,
+    "persona": {
+      "id": 66,
+      "age": 42,
+      "gender": "Male",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Banker",
+      "education": "PhD",
+      "political_leaning": "Right",
+      "description": "Urban professional Male aged 42 from Zurich. Working in Banker with PhD background. Passionate about sustainability."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.302560091018677,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 67,
+    "persona": {
+      "id": 67,
+      "age": 22,
+      "gender": "Female",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Lawyer",
+      "education": "Master",
+      "political_leaning": "Right",
+      "description": "From the countryside of Zurich, this 22-year-old Female works in Lawyer. Values tradition and enjoys reading."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.708465099334717,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 68,
+    "persona": {
+      "id": 68,
+      "age": 81,
+      "gender": "Male",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Engineer",
+      "education": "High School",
+      "political_leaning": "Right",
+      "description": "A 81-year-old Male from rural Aargau. Works as Engineer and values family. Enjoys volunteering and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.046670913696289,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 69,
+    "persona": {
+      "id": 69,
+      "age": 30,
+      "gender": "Male",
+      "canton": "Valais",
+      "language": "French",
+      "occupation": "Electrician",
+      "education": "Vocational Training",
+      "political_leaning": "Center",
+      "description": "Rural Male aged 30 from Valais canton. Electrician who appreciates freedom and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.146802663803101,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 70,
+    "persona": {
+      "id": 70,
+      "age": 23,
+      "gender": "Female",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Accountant",
+      "education": "Vocational Training",
+      "political_leaning": "Center-Right",
+      "description": "Urban professional Female aged 23 from Zurich. Working in Accountant with Vocational Training background. Passionate about family."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.840922832489014,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 71,
+    "persona": {
+      "id": 71,
+      "age": 33,
+      "gender": "Non-binary",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Banker",
+      "education": "Bachelor",
+      "political_leaning": "Left",
+      "description": "City-dweller from Bern, 33 years old. Banker who cares deeply about tradition and spends free time technology."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.798020839691162,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 72,
+    "persona": {
+      "id": 72,
+      "age": 44,
+      "gender": "Female",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Nurse",
+      "education": "Vocational Training",
+      "political_leaning": "Left",
+      "description": "Urban professional Female aged 44 from Zurich. Working in Nurse with Vocational Training background. Passionate about quality."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.799366474151611,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 73,
+    "persona": {
+      "id": 73,
+      "age": 61,
+      "gender": "Female",
+      "canton": "Ticino",
+      "language": "Italian",
+      "occupation": "Retired",
+      "education": "High School",
+      "political_leaning": "Left",
+      "description": "Rural Female aged 61 from Ticino canton. Retired who appreciates privacy and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.440911054611206,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 74,
+    "persona": {
+      "id": 74,
+      "age": 57,
+      "gender": "Male",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Artist",
+      "education": "PhD",
+      "political_leaning": "Center",
+      "description": "From the countryside of Zurich, this 57-year-old Male works in Artist. Values family and enjoys gardening."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.755788564682007,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 75,
+    "persona": {
+      "id": 75,
+      "age": 79,
+      "gender": "Female",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Lawyer",
+      "education": "Master",
+      "political_leaning": "Right",
+      "description": "Urban professional Female aged 79 from Zurich. Working in Lawyer with Master background. Passionate about efficiency."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 5.102370262145996,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 76,
+    "persona": {
+      "id": 76,
+      "age": 29,
+      "gender": "Female",
+      "canton": "Ticino",
+      "language": "Italian",
+      "occupation": "Journalist",
+      "education": "PhD",
+      "political_leaning": "Left",
+      "description": "Rural Female aged 29 from Ticino canton. Journalist who appreciates freedom and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "C",
+    "response_time": 4.671009540557861,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 77,
+    "persona": {
+      "id": 77,
+      "age": 66,
+      "gender": "Male",
+      "canton": "Thurgau",
+      "language": "German",
+      "occupation": "Journalist",
+      "education": "High School",
+      "political_leaning": "Right",
+      "description": "From the countryside of Thurgau, this 66-year-old Male works in Journalist. Values security and enjoys cooking traditional Swiss food."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 5.147649049758911,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 78,
+    "persona": {
+      "id": 78,
+      "age": 35,
+      "gender": "Female",
+      "canton": "St. Gallen",
+      "language": "German",
+      "occupation": "Retired",
+      "education": "Compulsory School",
+      "political_leaning": "Left",
+      "description": "From the countryside of St. Gallen, this 35-year-old Female works in Retired. Values security and enjoys volunteering."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.296555042266846,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 79,
+    "persona": {
+      "id": 79,
+      "age": 41,
+      "gender": "Female",
+      "canton": "St. Gallen",
+      "language": "German",
+      "occupation": "Architect",
+      "education": "PhD",
+      "political_leaning": "Center-Right",
+      "description": "Rural Female aged 41 from St. Gallen canton. Architect who appreciates family and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.792651653289795,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 80,
+    "persona": {
+      "id": 80,
+      "age": 36,
+      "gender": "Female",
+      "canton": "Ticino",
+      "language": "Italian",
+      "occupation": "Electrician",
+      "education": "High School",
+      "political_leaning": "Apolitical",
+      "description": "A 36-year-old Female from rural Ticino. Works as Electrician and values family. Enjoys local politics and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "B",
+    "response_time": 3.6301794052124023,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 81,
+    "persona": {
+      "id": 81,
+      "age": 59,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Student",
+      "education": "Master",
+      "political_leaning": "Left",
+      "description": "A 59-year-old Male from Bern who works as a Student and values tradition. Lives in the city and enjoys hiking in the Alps."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.98846697807312,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 82,
+    "persona": {
+      "id": 82,
+      "age": 44,
+      "gender": "Male",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Teacher",
+      "education": "Master",
+      "political_leaning": "Left",
+      "description": "Urban professional Male aged 44 from Vaud. Working in Teacher with Master background. Passionate about quality."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.969789505004883,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 83,
+    "persona": {
+      "id": 83,
+      "age": 28,
+      "gender": "Non-binary",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Police Officer",
+      "education": "Vocational Training",
+      "political_leaning": "Left",
+      "description": "City-dweller from Zurich, 28 years old. Police Officer who cares deeply about tradition and spends free time hiking in the Alps."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.928770065307617,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 84,
+    "persona": {
+      "id": 84,
+      "age": 75,
+      "gender": "Female",
+      "canton": "Geneva",
+      "language": "French",
+      "occupation": "Retired",
+      "education": "Vocational Training",
+      "political_leaning": "Right",
+      "description": "City-dweller from Geneva, 75 years old. Retired who cares deeply about privacy and spends free time reading."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.340595006942749,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 85,
+    "persona": {
+      "id": 85,
+      "age": 21,
+      "gender": "Female",
+      "canton": "Graubünden",
+      "language": "German",
+      "occupation": "Nurse",
+      "education": "PhD",
+      "political_leaning": "Left",
+      "description": "A 21-year-old Female from rural Graubünden. Works as Nurse and values freedom. Enjoys watching football and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.046019077301025,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 86,
+    "persona": {
+      "id": 86,
+      "age": 76,
+      "gender": "Male",
+      "canton": "Graubünden",
+      "language": "German",
+      "occupation": "IT Specialist",
+      "education": "Bachelor",
+      "political_leaning": "Center-Right",
+      "description": "Rural Male aged 76 from Graubünden canton. IT Specialist who appreciates community and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 5.230918884277344,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 87,
+    "persona": {
+      "id": 87,
+      "age": 72,
+      "gender": "Non-binary",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Artist",
+      "education": "Master",
+      "political_leaning": "Center-Right",
+      "description": "Rural Non-binary aged 72 from Aargau canton. Artist who appreciates sustainability and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.43658447265625,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 88,
+    "persona": {
+      "id": 88,
+      "age": 74,
+      "gender": "Female",
+      "canton": "Basel-Stadt",
+      "language": "German",
+      "occupation": "Retired",
+      "education": "Compulsory School",
+      "political_leaning": "Center-Left",
+      "description": "A 74-year-old Female from Basel-Stadt who works as a Retired and values sustainability. Lives in the city and enjoys watching football."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.877866744995117,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 89,
+    "persona": {
+      "id": 89,
+      "age": 86,
+      "gender": "Non-binary",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Nurse",
+      "education": "PhD",
+      "political_leaning": "Center-Right",
+      "description": "A 86-year-old Non-binary from rural Zurich. Works as Nurse and values efficiency. Enjoys gardening and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.70711350440979,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 90,
+    "persona": {
+      "id": 90,
+      "age": 28,
+      "gender": "Female",
+      "canton": "Ticino",
+      "language": "Italian",
+      "occupation": "Teacher",
+      "education": "Bachelor",
+      "political_leaning": "Right",
+      "description": "Rural Female aged 28 from Ticino canton. Teacher who appreciates innovation and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.7967493534088135,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 91,
+    "persona": {
+      "id": 91,
+      "age": 26,
+      "gender": "Male",
+      "canton": "Zurich",
+      "language": "German",
+      "occupation": "Lawyer",
+      "education": "PhD",
+      "political_leaning": "Left",
+      "description": "From the countryside of Zurich, this 26-year-old Male works in Lawyer. Values tradition and enjoys volunteering."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.751604795455933,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 92,
+    "persona": {
+      "id": 92,
+      "age": 37,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Pharmacist",
+      "education": "Master",
+      "political_leaning": "Right",
+      "description": "From the countryside of Bern, this 37-year-old Male works in Pharmacist. Values tradition and enjoys volunteering."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.8850624561309814,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 93,
+    "persona": {
+      "id": 93,
+      "age": 85,
+      "gender": "Female",
+      "canton": "Geneva",
+      "language": "French",
+      "occupation": "Retired",
+      "education": "Vocational Training",
+      "political_leaning": "Apolitical",
+      "description": "A 85-year-old Female from Geneva who works as a Retired and values innovation. Lives in the city and enjoys hiking in the Alps."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.710729360580444,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 94,
+    "persona": {
+      "id": 94,
+      "age": 44,
+      "gender": "Non-binary",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Farmer",
+      "education": "Compulsory School",
+      "political_leaning": "Left",
+      "description": "City-dweller from Vaud, 44 years old. Farmer who cares deeply about security and spends free time local politics."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.798199415206909,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 95,
+    "persona": {
+      "id": 95,
+      "age": 53,
+      "gender": "Male",
+      "canton": "Fribourg",
+      "language": "French",
+      "occupation": "Mechanic",
+      "education": "High School",
+      "political_leaning": "Left",
+      "description": "A 53-year-old Male from rural Fribourg. Works as Mechanic and values security. Enjoys hiking in the Alps and community life."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.794973611831665,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 96,
+    "persona": {
+      "id": 96,
+      "age": 34,
+      "gender": "Non-binary",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "IT Specialist",
+      "education": "Compulsory School",
+      "political_leaning": "Center-Right",
+      "description": "Urban professional Non-binary aged 34 from Bern. Working in IT Specialist with Compulsory School background. Passionate about innovation."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.249939203262329,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 97,
+    "persona": {
+      "id": 97,
+      "age": 76,
+      "gender": "Female",
+      "canton": "Vaud",
+      "language": "French",
+      "occupation": "Retired",
+      "education": "High School",
+      "political_leaning": "Right",
+      "description": "City-dweller from Vaud, 76 years old. Retired who cares deeply about family and spends free time classical music."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 3.889420747756958,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 98,
+    "persona": {
+      "id": 98,
+      "age": 85,
+      "gender": "Male",
+      "canton": "Bern",
+      "language": "German",
+      "occupation": "Social Worker",
+      "education": "Master",
+      "political_leaning": "Left",
+      "description": "Rural Male aged 85 from Bern canton. Social Worker who appreciates community and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.97208833694458,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 99,
+    "persona": {
+      "id": 99,
+      "age": 55,
+      "gender": "Female",
+      "canton": "Aargau",
+      "language": "German",
+      "occupation": "Scientist",
+      "education": "PhD",
+      "political_leaning": "Center-Right",
+      "description": "Rural Female aged 55 from Aargau canton. Scientist who appreciates sustainability and traditional Swiss culture."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.529232025146484,
+    "success": true,
+    "error_message": null
+  },
+  {
+    "persona_id": 100,
+    "persona": {
+      "id": 100,
+      "age": 46,
+      "gender": "Non-binary",
+      "canton": "Geneva",
+      "language": "French",
+      "occupation": "Journalist",
+      "education": "Bachelor",
+      "political_leaning": "Center",
+      "description": "Urban professional Non-binary aged 46 from Geneva. Working in Journalist with Bachelor background. Passionate about family."
+    },
+    "question": "What should be Switzerland's top priority? A) Economic Growth B) Climate Action C) Social Welfare D) National Security",
+    "answer": "A",
+    "response_time": 4.340250730514526,
+    "success": true,
+    "error_message": null
+  }
+]
