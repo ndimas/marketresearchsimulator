@@ -2,7 +2,7 @@
 
 from personas import Persona, SwissPersonaGenerator
 from llm import LLMClient, MarketResearchQuery, ResponseAnalyzer, QueryResult
-from deployment import RunPodDeployer, DeploymentConfig, DeploymentResult
+from deployment import RunPodDeployer, DeploymentConfig
 from orchestration import SwissMarketResearchOrchestrator, WorkflowConfig, WorkflowStep
 
 __version__ = "1.0.0"
@@ -11,7 +11,6 @@ __all__ = [
     'Persona',
     'QueryResult',
     'DeploymentConfig',
-    'DeploymentResult',
     'MarketResearchQuery',
     'WorkflowConfig',
     'WorkflowStep',
