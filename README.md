@@ -277,149 +277,30 @@ Generate Python code to create a JSON file with 100 personas for Swiss voting-ag
 
 ### 🤖 Category 2: Model Selection
 
-**Objective**: Choose an LLM suitable for local deployment on RTX 4090, supporting batch querying for 100 personas.
-
-#### Hardware Considerations
-
-**RTX 4090 Specifications**:
-- **VRAM**: 24GB GDDR6X
-- **Supported Models**: Up to ~70B parameters (quantized)
-- **Memory Requirements**: 
-  - 7B models: ~5-8GB (FP16/INT8)
-  - 13B models: ~9-13GB (FP16/INT8)
-  - 34B models: ~20-24GB (heavily quantized)
+**Objective**: Choose a suitable LLM endpoint for batch querying 100 personas.
 
 #### Recommended Models
 
-| Model | Parameters | VRAM Needed | Speed | Structured Output | Recommended |
-|-------|-------------|--------------|-------|------------------|-------------|
-| Llama 3.1 8B | 8B | 5-8GB | ⚡⚡⚡ | ✅ Excellent | ✅ **BEST CHOICE** |
-| Mistral 7B | 7B | 4-7GB | ⚡⚡⚡ | ✅ Good | ✅ Alternative |
-| Gemma 2 9B | 9B | 6-9GB | ⚡⚡ | ✅ Good | ✅ Option |
-| Llama 3.1 70B | 70B | 20-24GB | ⚡ | ✅ Excellent | ⚠️ Heavy |
+For optimal performance with structured output and batch processing:
+
+| Model | Parameters | Speed | Structured Output | Recommended |
+|-------|-------------|-------|------------------|-------------|
+| Llama 3.1 8B | 8B | ⚡⚡⚡ | ✅ Excellent | ✅ **BEST CHOICE** |
+| Mistral 7B | 7B | ⚡⚡⚡ | ✅ Good | ✅ Alternative |
+| Gemma 2 9B | 9B | ⚡⚡ | ✅ Good | ✅ Option |
 
 **Selected Model**: Llama 3.1 8B Instruct
-- **Why**: Optimal balance of speed, quality, and memory usage
+- **Why**: Optimal balance of speed, quality, and structured output capabilities
 - **Structured Output**: Excellent JSON and formatting capabilities
 - **Batch Processing**: Designed for high-throughput inference
 
-#### GLM 4.6 Model Selection Prompt
-```
-Recommend an open-source LLM for batch querying 100 personas on RTX 4090 via vLLM. Prioritize: 1) Structured output support (JSON format), 2) Fast inference for 100+ parallel requests, 3) Low VRAM usage, 4) Good reasoning for market research scenarios.
-```
+#### Endpoint Requirements
 
-### 🚀 Category 3: Deployment on RunPod
-
-**Objective**: Deploy the selected LLM on a RunPod instance with RTX 4090 using vLLM for efficient serving.
-
-#### Step-by-Step Deployment
-
-1. **RunPod Setup**:
-```bash
-# Sign up at runpod.io
-# Create new pod with:
-# - GPU: RTX 4090
-# - OS: Ubuntu 22.04
-# - Storage: 50GB+ persistent
-# - Network: Public IP
-```
-
-2. **Environment Installation**:
-```bash
-# Update system
-sudo apt update && sudo apt install -y python3-pip git curl
-
-# Install PyTorch with CUDA support
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-
-# Install vLLM and dependencies
-pip install vllm huggingface-hub aiohttp fastapi uvicorn
-
-# Verify CUDA availability
-python -c "import torch; print(f'CUDA available: {torch.cuda.is_available()}')"
-```
-
-3. **Model Download and Configuration**:
-```bash
-# Set up Hugging Face token (for gated models)
-huggingface-cli login
-
-# Download model
-huggingface-cli download meta-llama/Meta-Llama-3.1-8B-Instruct --local-dir ./model
-
-# Create vLLM configuration
-cat > vllm_config.json << EOF
-{
-  "model": "./model",
-  "host": "0.0.0.0",
-  "port": 8000,
-  "tensor-parallel-size": 1,
-  "max-model-len": 4096,
-  "gpu-memory-utilization": 0.9,
-  "dtype": "float16"
-}
-EOF
-```
-
-4. **Start vLLM Server**:
-```bash
-# Basic server
-vllm serve ./model \
-  --host 0.0.0.0 \
-  --port 8000 \
-  --tensor-parallel-size 1 \
-  --max-model-len 4096 \
-  --gpu-memory-utilization 0.9
-
-# Advanced configuration for structured output
-vllm serve ./model \
-  --host 0.0.0.0 \
-  --port 8000 \
-  --enforce-eager \
-  --max-num-seqs 256 \
-  --max-num-batched-tokens 8192
-```
-
-5. **Test Endpoint**:
-```bash
-# Test health check
-curl http://localhost:8000/health
-
-# Test inference
-curl -X POST "http://localhost:8000/v1/chat/completions" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
-    "messages": [
-      {"role": "system", "content": "Respond only in JSON: {\"answer\": \"your_response\"}"},
-      {"role": "user", "content": "What is 2+2?"}
-    ],
-    "max_tokens": 50
-  }'
-```
-
-#### Deployment Optimization
-
-**Memory Optimization**:
-```bash
-# Monitor GPU memory
-nvidia-smi -l 1
-
-# Adjust batch sizes based on available memory
-# vLLM automatically optimizes but you can set limits
-```
-
-**Performance Tuning**:
-```bash
-# Enable tensor parallelism for larger models
-# Use CPU offloading for memory constraints
-# Adjust concurrency limits based on testing
-```
-
-#### GLM 4.6 Deployment Prompt
-```
-Generate bash script for deploying Llama 3.1 8B on RunPod RTX 4090 with vLLM. Include: 1) Environment setup, 2) Model download, 3) vLLM configuration for structured output, 4) Health check commands, 5) Performance monitoring.
-```
+Your LLM endpoint should support:
+- OpenAI-compatible API format
+- Concurrent request handling
+- Structured output responses
+- Configurable temperature and token limits
 
 ### 🔍 Category 4: Query Implementation
 
@@ -834,10 +715,6 @@ python market_research_simulator.py
    - Check linguistic diversity requirements
    - Validate age distribution
 
-5. **Deployment Issues**
-   - Monitor GPU memory usage with `nvidia-smi`
-   - Check vLLM server logs
-   - Verify model download completion
 
 ## 📄 Project Files Reference
 
