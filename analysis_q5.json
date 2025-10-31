@@ -1,0 +1,703 @@
+{
+    "total_respondents": 100,
+    "question": "What should be Switzerland's priority for economic development? A) Technology and innovation B) Traditional industries C) Service sector growth D) Sustainable development",
+    "by_language": {
+        "German": {
+            "count": 60,
+            "answers": [
+                "B",
+                "",
+                "",
+                "",
+                "A",
+                "{'answer': 'B'}.",
+                "",
+                "C",
+                "{'answer': 'D'}.",
+                "",
+                "",
+                "{'answer': 'A'}.",
+                "A",
+                "",
+                "",
+                "",
+                "{'answer': 'C'}. The persona values community life and would likely prioritize the growth of the service sector as it can bring more job opportunities and economic benefits to the local community.",
+                "Answer: 'C'",
+                "{\n  \"answer\": \"C\"\n}\n\nAs a rural female aged 56 from Aargau canton, who appreciates privacy and traditional Swiss culture, your priority for Switzerland's economic development would be traditional industries. This aligns with your respect for Swiss culture and your desire to preserve it.",
+                "",
+                "A",
+                "",
+                "",
+                "",
+                "{'answer': 'A'}.",
+                "",
+                "{'answer': 'A'}.",
+                "{'answer': 'C'}",
+                "{'answer': 'A'}.",
+                "{'answer': 'D'}. Sustainable development is the most important priority for economic development in Switzerland. As a student with a master's degree in security, it is crucial for Switzerland to prioritize sustainable development and work towards a more eco-friendly economy. As a non-binary individual from Zurich, Switzerland's most populous city, I am also concerned about the impact of economic development on the environment and the health of the citizens. Furthermore, as a left-leaning individual, I believe in the importance of social and environmental responsibility in economic decision-making. Therefore, sustainable development should be the top priority for Switzerland's economic development.",
+                "",
+                "",
+                "",
+                "{'answer': 'B'}",
+                "{'answer': 'D'}",
+                "{'answer': 'C'}.\n\nThe persona would likely prioritize the growth of the service sector as it aligns with their community-focused values and provides opportunities for innovation. The service sector also has the potential to bring in new revenue while preserving Switzerland's traditional industries and values.",
+                "",
+                "A",
+                "{'answer': 'D'}.",
+                "{'answer': 'D'}. As a pharmacist with a PhD and a strong appreciation for traditional Swiss culture, I believe that sustainable development should be Switzerland's top priority for economic development. This aligns with my values of efficiency and preservation of our cultural heritage. Technology and innovation may have their place, but they should not come at the expense of our environment or the well-being of future generations.",
+                "",
+                "{'answer': 'A'}.",
+                "{'answer': 'D'}",
+                "Answer: B",
+                "",
+                "{'answer': 'B'}.",
+                "",
+                "",
+                "{'answer': 'B'}. Traditional industries are important to her as she values community life and gardening, which are often linked to rural areas where traditional industries thrive.",
+                "D",
+                "",
+                "",
+                "",
+                "{'answer': 'D'}. This persona values sustainable development and tradition, so they would likely prioritize this option.",
+                "",
+                "{'answer': 'A'}",
+                "",
+                "{'answer': 'B'}.",
+                "{'answer': 'C'}",
+                "{\n  \"answer\": \"A\"\n}\n\nThis persona would prioritize technology and innovation as they value tradition and enjoy community life. However, their background as an artist and a PhD suggest a strong interest in intellectual pursuits and creativity. Therefore, they would likely support the development of innovative industries that can create new opportunities while respecting traditional values."
+            ]
+        },
+        "French": {
+            "count": 34,
+            "answers": [
+                "",
+                "",
+                "",
+                "{'answer': 'D'}.",
+                "",
+                "",
+                "{'answer': 'D'}.\n\nThis persona prioritizes sustainable development over other options.",
+                "",
+                "",
+                "{'answer': 'B'}.",
+                "{'answer': 'A'}.",
+                "",
+                "",
+                "Answer: D",
+                "{'answer': 'A'}.",
+                "",
+                "A",
+                "{'answer': 'B'}.",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "{'answer': 'D'}. This persona prioritizes sustainable development for Switzerland's economic development, as they value sustainability and come from a rural area with a strong connection to nature. They also may see traditional industries as a threat to the environment and prefer to focus on sustainable development.",
+                "{'answer': 'A'}.",
+                "",
+                "",
+                "",
+                "C",
+                "",
+                "",
+                "C",
+                "{'answer': 'B'}"
+            ]
+        },
+        "Italian": {
+            "count": 6,
+            "answers": [
+                "",
+                "{'answer': 'D'}. This persona values sustainable development and would likely choose this option.",
+                "{'answer': 'D'}",
+                "{'answer': 'A'}.",
+                "",
+                ""
+            ]
+        }
+    },
+    "by_canton": {
+        "Zurich": {
+            "count": 13,
+            "answers": [
+                "B",
+                "",
+                "",
+                "{'answer': 'D'}.",
+                "A",
+                "",
+                "{'answer': 'A'}.",
+                "{'answer': 'D'}. Sustainable development is the most important priority for economic development in Switzerland. As a student with a master's degree in security, it is crucial for Switzerland to prioritize sustainable development and work towards a more eco-friendly economy. As a non-binary individual from Zurich, Switzerland's most populous city, I am also concerned about the impact of economic development on the environment and the health of the citizens. Furthermore, as a left-leaning individual, I believe in the importance of social and environmental responsibility in economic decision-making. Therefore, sustainable development should be the top priority for Switzerland's economic development.",
+                "",
+                "",
+                "{'answer': 'B'}.",
+                "{'answer': 'D'}. This persona values sustainable development and tradition, so they would likely prioritize this option.",
+                "{'answer': 'A'}"
+            ]
+        },
+        "Geneva": {
+            "count": 8,
+            "answers": [
+                "",
+                "",
+                "",
+                "",
+                "A",
+                "",
+                "",
+                "{'answer': 'A'}."
+            ]
+        },
+        "Valais": {
+            "count": 8,
+            "answers": [
+                "",
+                "{'answer': 'D'}.\n\nThis persona prioritizes sustainable development over other options.",
+                "{'answer': 'A'}.",
+                "",
+                "{'answer': 'D'}. This persona prioritizes sustainable development for Switzerland's economic development, as they value sustainability and come from a rural area with a strong connection to nature. They also may see traditional industries as a threat to the environment and prefer to focus on sustainable development.",
+                "",
+                "C",
+                "{'answer': 'B'}"
+            ]
+        },
+        "Vaud": {
+            "count": 14,
+            "answers": [
+                "{'answer': 'D'}.",
+                "",
+                "",
+                "{'answer': 'B'}.",
+                "",
+                "Answer: D",
+                "{'answer': 'A'}.",
+                "{'answer': 'B'}.",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "C"
+            ]
+        },
+        "Bern": {
+            "count": 13,
+            "answers": [
+                "",
+                "{'answer': 'B'}.",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Answer: B",
+                "",
+                "",
+                "",
+                ""
+            ]
+        },
+        "Lucerne": {
+            "count": 6,
+            "answers": [
+                "",
+                "",
+                "",
+                "{'answer': 'C'}",
+                "{'answer': 'B'}. Traditional industries are important to her as she values community life and gardening, which are often linked to rural areas where traditional industries thrive.",
+                ""
+            ]
+        },
+        "St. Gallen": {
+            "count": 8,
+            "answers": [
+                "A",
+                "{'answer': 'A'}.",
+                "",
+                "{'answer': 'B'}",
+                "{'answer': 'D'}",
+                "",
+                "D",
+                "{'answer': 'C'}"
+            ]
+        },
+        "Ticino": {
+            "count": 6,
+            "answers": [
+                "",
+                "{'answer': 'D'}. This persona values sustainable development and would likely choose this option.",
+                "{'answer': 'D'}",
+                "{'answer': 'A'}.",
+                "",
+                ""
+            ]
+        },
+        "Fribourg": {
+            "count": 1,
+            "answers": [
+                ""
+            ]
+        },
+        "Graubünden": {
+            "count": 3,
+            "answers": [
+                "C",
+                "{'answer': 'C'}.\n\nThe persona would likely prioritize the growth of the service sector as it aligns with their community-focused values and provides opportunities for innovation. The service sector also has the potential to bring in new revenue while preserving Switzerland's traditional industries and values.",
+                "A"
+            ]
+        },
+        "Aargau": {
+            "count": 10,
+            "answers": [
+                "",
+                "",
+                "Answer: 'C'",
+                "{\n  \"answer\": \"C\"\n}\n\nAs a rural female aged 56 from Aargau canton, who appreciates privacy and traditional Swiss culture, your priority for Switzerland's economic development would be traditional industries. This aligns with your respect for Swiss culture and your desire to preserve it.",
+                "",
+                "{'answer': 'A'}.",
+                "{'answer': 'A'}.",
+                "{'answer': 'D'}. As a pharmacist with a PhD and a strong appreciation for traditional Swiss culture, I believe that sustainable development should be Switzerland's top priority for economic development. This aligns with my values of efficiency and preservation of our cultural heritage. Technology and innovation may have their place, but they should not come at the expense of our environment or the well-being of future generations.",
+                "{'answer': 'A'}.",
+                "{'answer': 'B'}."
+            ]
+        },
+        "Solothurn": {
+            "count": 2,
+            "answers": [
+                "A",
+                ""
+            ]
+        },
+        "Thurgau": {
+            "count": 2,
+            "answers": [
+                "{'answer': 'C'}. The persona values community life and would likely prioritize the growth of the service sector as it can bring more job opportunities and economic benefits to the local community.",
+                "{\n  \"answer\": \"A\"\n}\n\nThis persona would prioritize technology and innovation as they value tradition and enjoy community life. However, their background as an artist and a PhD suggest a strong interest in intellectual pursuits and creativity. Therefore, they would likely support the development of innovative industries that can create new opportunities while respecting traditional values."
+            ]
+        },
+        "Neuchâtel": {
+            "count": 3,
+            "answers": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "Schwyz": {
+            "count": 1,
+            "answers": [
+                "{'answer': 'D'}"
+            ]
+        },
+        "Basel-Stadt": {
+            "count": 2,
+            "answers": [
+                "{'answer': 'D'}.",
+                ""
+            ]
+        }
+    },
+    "by_age_group": {
+        "65+": {
+            "count": 39,
+            "answers": [
+                "B",
+                "",
+                "",
+                "",
+                "{'answer': 'D'}.",
+                "",
+                "",
+                "{'answer': 'B'}.",
+                "{'answer': 'D'}.\n\nThis persona prioritizes sustainable development over other options.",
+                "{'answer': 'B'}.",
+                "A",
+                "",
+                "Answer: 'C'",
+                "",
+                "",
+                "",
+                "{'answer': 'C'}",
+                "",
+                "{'answer': 'B'}",
+                "{'answer': 'D'}",
+                "{'answer': 'C'}.\n\nThe persona would likely prioritize the growth of the service sector as it aligns with their community-focused values and provides opportunities for innovation. The service sector also has the potential to bring in new revenue while preserving Switzerland's traditional industries and values.",
+                "",
+                "{'answer': 'D'}.",
+                "{'answer': 'D'}. As a pharmacist with a PhD and a strong appreciation for traditional Swiss culture, I believe that sustainable development should be Switzerland's top priority for economic development. This aligns with my values of efficiency and preservation of our cultural heritage. Technology and innovation may have their place, but they should not come at the expense of our environment or the well-being of future generations.",
+                "",
+                "{'answer': 'D'}",
+                "{'answer': 'B'}.",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "C",
+                "",
+                "",
+                "C",
+                "{'answer': 'C'}",
+                "{'answer': 'B'}"
+            ]
+        },
+        "35-44": {
+            "count": 14,
+            "answers": [
+                "",
+                "",
+                "C",
+                "{'answer': 'D'}.",
+                "{'answer': 'D'}. This persona values sustainable development and would likely choose this option.",
+                "",
+                "{'answer': 'A'}.",
+                "{'answer': 'D'}. Sustainable development is the most important priority for economic development in Switzerland. As a student with a master's degree in security, it is crucial for Switzerland to prioritize sustainable development and work towards a more eco-friendly economy. As a non-binary individual from Zurich, Switzerland's most populous city, I am also concerned about the impact of economic development on the environment and the health of the citizens. Furthermore, as a left-leaning individual, I believe in the importance of social and environmental responsibility in economic decision-making. Therefore, sustainable development should be the top priority for Switzerland's economic development.",
+                "",
+                "",
+                "",
+                "{'answer': 'B'}. Traditional industries are important to her as she values community life and gardening, which are often linked to rural areas where traditional industries thrive.",
+                "",
+                ""
+            ]
+        },
+        "45-54": {
+            "count": 11,
+            "answers": [
+                "",
+                "{'answer': 'A'}.",
+                "",
+                "",
+                "",
+                "Answer: D",
+                "{'answer': 'A'}.",
+                "{'answer': 'B'}.",
+                "",
+                "{'answer': 'A'}.",
+                "{'answer': 'D'}. This persona values sustainable development and tradition, so they would likely prioritize this option."
+            ]
+        },
+        "25-34": {
+            "count": 17,
+            "answers": [
+                "A",
+                "",
+                "",
+                "",
+                "{'answer': 'C'}. The persona values community life and would likely prioritize the growth of the service sector as it can bring more job opportunities and economic benefits to the local community.",
+                "",
+                "",
+                "{'answer': 'A'}.",
+                "{'answer': 'A'}.",
+                "A",
+                "",
+                "",
+                "A",
+                "{'answer': 'A'}.",
+                "{'answer': 'A'}",
+                "",
+                "{'answer': 'B'}."
+            ]
+        },
+        "55-64": {
+            "count": 15,
+            "answers": [
+                "",
+                "",
+                "{'answer': 'A'}.",
+                "",
+                "{\n  \"answer\": \"C\"\n}\n\nAs a rural female aged 56 from Aargau canton, who appreciates privacy and traditional Swiss culture, your priority for Switzerland's economic development would be traditional industries. This aligns with your respect for Swiss culture and your desire to preserve it.",
+                "{'answer': 'D'}",
+                "",
+                "{'answer': 'A'}.",
+                "",
+                "",
+                "Answer: B",
+                "D",
+                "",
+                "",
+                "{\n  \"answer\": \"A\"\n}\n\nThis persona would prioritize technology and innovation as they value tradition and enjoy community life. However, their background as an artist and a PhD suggest a strong interest in intellectual pursuits and creativity. Therefore, they would likely support the development of innovative industries that can create new opportunities while respecting traditional values."
+            ]
+        },
+        "18-24": {
+            "count": 4,
+            "answers": [
+                "A",
+                "",
+                "",
+                "{'answer': 'D'}. This persona prioritizes sustainable development for Switzerland's economic development, as they value sustainability and come from a rural area with a strong connection to nature. They also may see traditional industries as a threat to the environment and prefer to focus on sustainable development."
+            ]
+        }
+    },
+    "by_political_leaning": {
+        "Center-Right": {
+            "count": 16,
+            "answers": [
+                "B",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "Answer: 'C'",
+                "{'answer': 'A'}.",
+                "{'answer': 'A'}.",
+                "",
+                "{'answer': 'D'}",
+                "",
+                "{'answer': 'D'}. As a pharmacist with a PhD and a strong appreciation for traditional Swiss culture, I believe that sustainable development should be Switzerland's top priority for economic development. This aligns with my values of efficiency and preservation of our cultural heritage. Technology and innovation may have their place, but they should not come at the expense of our environment or the well-being of future generations.",
+                "{'answer': 'D'}. This persona prioritizes sustainable development for Switzerland's economic development, as they value sustainability and come from a rural area with a strong connection to nature. They also may see traditional industries as a threat to the environment and prefer to focus on sustainable development.",
+                "{'answer': 'C'}",
+                "{'answer': 'B'}"
+            ]
+        },
+        "Center": {
+            "count": 9,
+            "answers": [
+                "",
+                "",
+                "{'answer': 'A'}.",
+                "",
+                "{'answer': 'A'}.",
+                "",
+                "{'answer': 'A'}.",
+                "{'answer': 'B'}.",
+                ""
+            ]
+        },
+        "Left": {
+            "count": 34,
+            "answers": [
+                "{'answer': 'D'}.",
+                "",
+                "",
+                "",
+                "C",
+                "{'answer': 'B'}.",
+                "{'answer': 'D'}.",
+                "A",
+                "",
+                "{'answer': 'D'}. This persona values sustainable development and would likely choose this option.",
+                "",
+                "{\n  \"answer\": \"C\"\n}\n\nAs a rural female aged 56 from Aargau canton, who appreciates privacy and traditional Swiss culture, your priority for Switzerland's economic development would be traditional industries. This aligns with your respect for Swiss culture and your desire to preserve it.",
+                "{'answer': 'D'}",
+                "",
+                "{'answer': 'A'}.",
+                "",
+                "",
+                "{'answer': 'D'}. Sustainable development is the most important priority for economic development in Switzerland. As a student with a master's degree in security, it is crucial for Switzerland to prioritize sustainable development and work towards a more eco-friendly economy. As a non-binary individual from Zurich, Switzerland's most populous city, I am also concerned about the impact of economic development on the environment and the health of the citizens. Furthermore, as a left-leaning individual, I believe in the importance of social and environmental responsibility in economic decision-making. Therefore, sustainable development should be the top priority for Switzerland's economic development.",
+                "",
+                "",
+                "",
+                "{'answer': 'B'}",
+                "{'answer': 'C'}.\n\nThe persona would likely prioritize the growth of the service sector as it aligns with their community-focused values and provides opportunities for innovation. The service sector also has the potential to bring in new revenue while preserving Switzerland's traditional industries and values.",
+                "{'answer': 'D'}.",
+                "{'answer': 'D'}",
+                "",
+                "",
+                "",
+                "D",
+                "",
+                "",
+                "",
+                "C",
+                "{\n  \"answer\": \"A\"\n}\n\nThis persona would prioritize technology and innovation as they value tradition and enjoy community life. However, their background as an artist and a PhD suggest a strong interest in intellectual pursuits and creativity. Therefore, they would likely support the development of innovative industries that can create new opportunities while respecting traditional values."
+            ]
+        },
+        "Apolitical": {
+            "count": 5,
+            "answers": [
+                "",
+                "",
+                "A",
+                "",
+                "{'answer': 'D'}. This persona values sustainable development and tradition, so they would likely prioritize this option."
+            ]
+        },
+        "Right": {
+            "count": 33,
+            "answers": [
+                "A",
+                "{'answer': 'B'}.",
+                "{'answer': 'D'}.\n\nThis persona prioritizes sustainable development over other options.",
+                "",
+                "{'answer': 'A'}.",
+                "",
+                "",
+                "",
+                "{'answer': 'C'}. The persona values community life and would likely prioritize the growth of the service sector as it can bring more job opportunities and economic benefits to the local community.",
+                "",
+                "Answer: D",
+                "A",
+                "",
+                "{'answer': 'C'}",
+                "{'answer': 'A'}.",
+                "{'answer': 'B'}.",
+                "",
+                "",
+                "",
+                "Answer: B",
+                "",
+                "",
+                "",
+                "{'answer': 'A'}.",
+                "",
+                "{'answer': 'B'}. Traditional industries are important to her as she values community life and gardening, which are often linked to rural areas where traditional industries thrive.",
+                "C",
+                "",
+                "",
+                "",
+                "{'answer': 'A'}",
+                "",
+                "{'answer': 'B'}."
+            ]
+        },
+        "Center-Left": {
+            "count": 3,
+            "answers": [
+                "",
+                "",
+                "A"
+            ]
+        }
+    },
+    "by_education": {
+        "PhD": {
+            "count": 28,
+            "answers": [
+                "B",
+                "",
+                "",
+                "{'answer': 'A'}.",
+                "",
+                "",
+                "{'answer': 'C'}. The persona values community life and would likely prioritize the growth of the service sector as it can bring more job opportunities and economic benefits to the local community.",
+                "{'answer': 'D'}. This persona values sustainable development and would likely choose this option.",
+                "{\n  \"answer\": \"C\"\n}\n\nAs a rural female aged 56 from Aargau canton, who appreciates privacy and traditional Swiss culture, your priority for Switzerland's economic development would be traditional industries. This aligns with your respect for Swiss culture and your desire to preserve it.",
+                "{'answer': 'D'}",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "{'answer': 'B'}",
+                "",
+                "A",
+                "{'answer': 'D'}. As a pharmacist with a PhD and a strong appreciation for traditional Swiss culture, I believe that sustainable development should be Switzerland's top priority for economic development. This aligns with my values of efficiency and preservation of our cultural heritage. Technology and innovation may have their place, but they should not come at the expense of our environment or the well-being of future generations.",
+                "Answer: B",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "{\n  \"answer\": \"A\"\n}\n\nThis persona would prioritize technology and innovation as they value tradition and enjoy community life. However, their background as an artist and a PhD suggest a strong interest in intellectual pursuits and creativity. Therefore, they would likely support the development of innovative industries that can create new opportunities while respecting traditional values."
+            ]
+        },
+        "High School": {
+            "count": 14,
+            "answers": [
+                "",
+                "",
+                "{'answer': 'A'}.",
+                "A",
+                "{'answer': 'B'}.",
+                "{'answer': 'D'}",
+                "{'answer': 'C'}.\n\nThe persona would likely prioritize the growth of the service sector as it aligns with their community-focused values and provides opportunities for innovation. The service sector also has the potential to bring in new revenue while preserving Switzerland's traditional industries and values.",
+                "{'answer': 'D'}.",
+                "",
+                "{'answer': 'A'}.",
+                "",
+                "{'answer': 'D'}. This persona values sustainable development and tradition, so they would likely prioritize this option.",
+                "",
+                "{'answer': 'C'}"
+            ]
+        },
+        "Vocational Training": {
+            "count": 13,
+            "answers": [
+                "",
+                "",
+                "",
+                "A",
+                "",
+                "{'answer': 'B'}.",
+                "",
+                "{'answer': 'D'}.\n\nThis persona prioritizes sustainable development over other options.",
+                "C",
+                "Answer: D",
+                "",
+                "{'answer': 'A'}.",
+                ""
+            ]
+        },
+        "Master": {
+            "count": 18,
+            "answers": [
+                "",
+                "",
+                "",
+                "A",
+                "Answer: 'C'",
+                "",
+                "A",
+                "",
+                "{'answer': 'A'}.",
+                "",
+                "{'answer': 'D'}. Sustainable development is the most important priority for economic development in Switzerland. As a student with a master's degree in security, it is crucial for Switzerland to prioritize sustainable development and work towards a more eco-friendly economy. As a non-binary individual from Zurich, Switzerland's most populous city, I am also concerned about the impact of economic development on the environment and the health of the citizens. Furthermore, as a left-leaning individual, I believe in the importance of social and environmental responsibility in economic decision-making. Therefore, sustainable development should be the top priority for Switzerland's economic development.",
+                "",
+                "",
+                "",
+                "",
+                "C",
+                "",
+                ""
+            ]
+        },
+        "Bachelor": {
+            "count": 14,
+            "answers": [
+                "{'answer': 'D'}.",
+                "{'answer': 'B'}.",
+                "{'answer': 'D'}.",
+                "",
+                "",
+                "{'answer': 'A'}.",
+                "",
+                "{'answer': 'D'}",
+                "",
+                "",
+                "{'answer': 'B'}. Traditional industries are important to her as she values community life and gardening, which are often linked to rural areas where traditional industries thrive.",
+                "D",
+                "{'answer': 'A'}",
+                "C"
+            ]
+        },
+        "Compulsory School": {
+            "count": 13,
+            "answers": [
+                "",
+                "{'answer': 'A'}.",
+                "",
+                "{'answer': 'A'}.",
+                "{'answer': 'A'}.",
+                "{'answer': 'C'}",
+                "",
+                "",
+                "{'answer': 'B'}.",
+                "{'answer': 'D'}. This persona prioritizes sustainable development for Switzerland's economic development, as they value sustainability and come from a rural area with a strong connection to nature. They also may see traditional industries as a threat to the environment and prefer to focus on sustainable development.",
+                "",
+                "{'answer': 'B'}.",
+                "{'answer': 'B'}"
+            ]
+        }
+    },
+    "response_statistics": {
+        "avg_response_length": 35.54,
+        "unique_answers": 26
+    }
+}

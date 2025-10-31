@@ -1,0 +1,1902 @@
+[
+    {
+        "persona_id": 1,
+        "persona": {
+            "id": 1,
+            "age": 75,
+            "gender": "Non-binary",
+            "canton": "Zurich",
+            "language": "German",
+            "occupation": "Architect",
+            "education": "PhD",
+            "political_leaning": "Center-Right",
+            "description": "From the countryside of Zurich, this 75-year-old Non-binary works in Architect. Values community and enjoys technology."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'B'}",
+        "response_time": 1.0196924209594727,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 2,
+        "persona": {
+            "id": 2,
+            "age": 41,
+            "gender": "Female",
+            "canton": "Geneva",
+            "language": "French",
+            "occupation": "Nurse",
+            "education": "High School",
+            "political_leaning": "Center-Right",
+            "description": "City-dweller from Geneva, 41 years old. Nurse who cares deeply about sustainability and spends free time volunteering."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.6872467994689941,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 3,
+        "persona": {
+            "id": 3,
+            "age": 73,
+            "gender": "Female",
+            "canton": "Geneva",
+            "language": "French",
+            "occupation": "Artist",
+            "education": "Vocational Training",
+            "political_leaning": "Center-Right",
+            "description": "From the countryside of Geneva, this 73-year-old Female works in Artist. Values family and enjoys gardening."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.6205973625183105,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 4,
+        "persona": {
+            "id": 4,
+            "age": 68,
+            "gender": "Female",
+            "canton": "Valais",
+            "language": "French",
+            "occupation": "Pharmacist",
+            "education": "Master",
+            "political_leaning": "Center",
+            "description": "A 68-year-old Female from rural Valais. Works as Pharmacist and values efficiency. Enjoys hiking in the Alps and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5713174343109131,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 5,
+        "persona": {
+            "id": 5,
+            "age": 74,
+            "gender": "Female",
+            "canton": "Zurich",
+            "language": "German",
+            "occupation": "Farmer",
+            "education": "Vocational Training",
+            "political_leaning": "Center-Right",
+            "description": "From the countryside of Zurich, this 74-year-old Female works in Farmer. Values community and enjoys classical music."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "A",
+        "response_time": 1.106553316116333,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 6,
+        "persona": {
+            "id": 6,
+            "age": 83,
+            "gender": "Male",
+            "canton": "Vaud",
+            "language": "French",
+            "occupation": "Student",
+            "education": "Bachelor",
+            "political_leaning": "Left",
+            "description": "From the countryside of Vaud, this 83-year-old Male works in Student. Values quality and enjoys volunteering."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5675036907196045,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 7,
+        "persona": {
+            "id": 7,
+            "age": 85,
+            "gender": "Female",
+            "canton": "Bern",
+            "language": "German",
+            "occupation": "Doctor",
+            "education": "Master",
+            "political_leaning": "Apolitical",
+            "description": "Rural Female aged 85 from Bern canton. Doctor who appreciates tradition and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.31905579566955566,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 8,
+        "persona": {
+            "id": 8,
+            "age": 45,
+            "gender": "Female",
+            "canton": "Lucerne",
+            "language": "German",
+            "occupation": "Entrepreneur",
+            "education": "Vocational Training",
+            "political_leaning": "Center",
+            "description": "From the countryside of Lucerne, this 45-year-old Female works in Entrepreneur. Values efficiency and enjoys skiing."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.31848597526550293,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 9,
+        "persona": {
+            "id": 9,
+            "age": 32,
+            "gender": "Female",
+            "canton": "St. Gallen",
+            "language": "German",
+            "occupation": "IT Specialist",
+            "education": "Vocational Training",
+            "political_leaning": "Right",
+            "description": "Rural Female aged 32 from St. Gallen canton. IT Specialist who appreciates freedom and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3874225616455078,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 10,
+        "persona": {
+            "id": 10,
+            "age": 86,
+            "gender": "Male",
+            "canton": "Geneva",
+            "language": "French",
+            "occupation": "Journalist",
+            "education": "Vocational Training",
+            "political_leaning": "Left",
+            "description": "Urban professional Male aged 86 from Geneva. Working in Journalist with Vocational Training background. Passionate about efficiency."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 1.557013988494873,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 11,
+        "persona": {
+            "id": 11,
+            "age": 57,
+            "gender": "Female",
+            "canton": "Ticino",
+            "language": "Italian",
+            "occupation": "Scientist",
+            "education": "Master",
+            "political_leaning": "Left",
+            "description": "From the countryside of Ticino, this 57-year-old Female works in Scientist. Values security and enjoys watching football."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 1.5606887340545654,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 12,
+        "persona": {
+            "id": 12,
+            "age": 83,
+            "gender": "Female",
+            "canton": "Bern",
+            "language": "German",
+            "occupation": "Pharmacist",
+            "education": "Vocational Training",
+            "political_leaning": "Right",
+            "description": "A 83-year-old Female from Bern who works as a Pharmacist and values efficiency. Lives in the city and enjoys cooking traditional Swiss food."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'A'}.",
+        "response_time": 0.9258992671966553,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 13,
+        "persona": {
+            "id": 13,
+            "age": 25,
+            "gender": "Female",
+            "canton": "Zurich",
+            "language": "German",
+            "occupation": "Accountant",
+            "education": "Vocational Training",
+            "political_leaning": "Left",
+            "description": "From the countryside of Zurich, this 25-year-old Female works in Accountant. Values community and enjoys skiing."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'A'}",
+        "response_time": 0.8824648857116699,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 14,
+        "persona": {
+            "id": 14,
+            "age": 27,
+            "gender": "Non-binary",
+            "canton": "Vaud",
+            "language": "French",
+            "occupation": "Nurse",
+            "education": "PhD",
+            "political_leaning": "Center-Right",
+            "description": "Rural Non-binary aged 27 from Vaud canton. Nurse who appreciates quality and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "Answer: 'A'",
+        "response_time": 0.90346360206604,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 15,
+        "persona": {
+            "id": 15,
+            "age": 83,
+            "gender": "Female",
+            "canton": "Valais",
+            "language": "French",
+            "occupation": "Journalist",
+            "education": "Vocational Training",
+            "political_leaning": "Right",
+            "description": "From the countryside of Valais, this 83-year-old Female works in Journalist. Values sustainability and enjoys hiking in the Alps."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.545565128326416,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 16,
+        "persona": {
+            "id": 16,
+            "age": 44,
+            "gender": "Non-binary",
+            "canton": "Fribourg",
+            "language": "French",
+            "occupation": "Doctor",
+            "education": "PhD",
+            "political_leaning": "Right",
+            "description": "Rural Non-binary aged 44 from Fribourg canton. Doctor who appreciates quality and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5463845729827881,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 17,
+        "persona": {
+            "id": 17,
+            "age": 64,
+            "gender": "Male",
+            "canton": "Vaud",
+            "language": "French",
+            "occupation": "Farmer",
+            "education": "Compulsory School",
+            "political_leaning": "Center-Right",
+            "description": "A 64-year-old Male from Vaud who works as a Farmer and values family. Lives in the city and enjoys classical music."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.346759557723999,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 18,
+        "persona": {
+            "id": 18,
+            "age": 44,
+            "gender": "Female",
+            "canton": "Graubünden",
+            "language": "German",
+            "occupation": "Teacher",
+            "education": "Vocational Training",
+            "political_leaning": "Left",
+            "description": "A 44-year-old Female from rural Graubünden. Works as Teacher and values freedom. Enjoys reading and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5686531066894531,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 19,
+        "persona": {
+            "id": 19,
+            "age": 81,
+            "gender": "Non-binary",
+            "canton": "Vaud",
+            "language": "French",
+            "occupation": "IT Specialist",
+            "education": "Bachelor",
+            "political_leaning": "Left",
+            "description": "Rural Non-binary aged 81 from Vaud canton. IT Specialist who appreciates security and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3339674472808838,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 20,
+        "persona": {
+            "id": 20,
+            "age": 52,
+            "gender": "Female",
+            "canton": "Valais",
+            "language": "French",
+            "occupation": "Entrepreneur",
+            "education": "Compulsory School",
+            "political_leaning": "Right",
+            "description": "From the countryside of Valais, this 52-year-old Female works in Entrepreneur. Values efficiency and enjoys skiing."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.525475263595581,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 21,
+        "persona": {
+            "id": 21,
+            "age": 39,
+            "gender": "Male",
+            "canton": "Zurich",
+            "language": "German",
+            "occupation": "Journalist",
+            "education": "Bachelor",
+            "political_leaning": "Left",
+            "description": "A 39-year-old Male from Zurich who works as a Journalist and values sustainability. Lives in the city and enjoys classical music."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5376906394958496,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 22,
+        "persona": {
+            "id": 22,
+            "age": 46,
+            "gender": "Non-binary",
+            "canton": "Aargau",
+            "language": "German",
+            "occupation": "IT Specialist",
+            "education": "High School",
+            "political_leaning": "Right",
+            "description": "A 46-year-old Non-binary from rural Aargau. Works as IT Specialist and values tradition. Enjoys skiing and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'B'}",
+        "response_time": 0.7145123481750488,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 23,
+        "persona": {
+            "id": 23,
+            "age": 30,
+            "gender": "Non-binary",
+            "canton": "Lucerne",
+            "language": "German",
+            "occupation": "Police Officer",
+            "education": "Compulsory School",
+            "political_leaning": "Center-Left",
+            "description": "From the countryside of Lucerne, this 30-year-old Non-binary works in Police Officer. Values community and enjoys watching football."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'C'}. This persona values transparency and community, but also works in a job where security is paramount. They might be more inclined towards full transparency or limited transparency, but not complete secrecy.",
+        "response_time": 2.4330875873565674,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 24,
+        "persona": {
+            "id": 24,
+            "age": 60,
+            "gender": "Non-binary",
+            "canton": "St. Gallen",
+            "language": "German",
+            "occupation": "Lawyer",
+            "education": "PhD",
+            "political_leaning": "Center",
+            "description": "A 60-year-old Non-binary from rural St. Gallen. Works as Lawyer and values efficiency. Enjoys hiking in the Alps and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.35532188415527344,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 25,
+        "persona": {
+            "id": 25,
+            "age": 72,
+            "gender": "Non-binary",
+            "canton": "Solothurn",
+            "language": "German",
+            "occupation": "Scientist",
+            "education": "Master",
+            "political_leaning": "Left",
+            "description": "A 72-year-old Non-binary from rural Solothurn. Works as Scientist and values efficiency. Enjoys classical music and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'C'}",
+        "response_time": 0.7169153690338135,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 26,
+        "persona": {
+            "id": 26,
+            "age": 65,
+            "gender": "Non-binary",
+            "canton": "Bern",
+            "language": "German",
+            "occupation": "Nurse",
+            "education": "Bachelor",
+            "political_leaning": "Right",
+            "description": "A 65-year-old Non-binary from Bern who works as a Nurse and values quality. Lives in the city and enjoys skiing."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.34029531478881836,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 27,
+        "persona": {
+            "id": 27,
+            "age": 51,
+            "gender": "Female",
+            "canton": "Bern",
+            "language": "German",
+            "occupation": "Architect",
+            "education": "PhD",
+            "political_leaning": "Left",
+            "description": "Rural Female aged 51 from Bern canton. Architect who appreciates quality and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3236501216888428,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 28,
+        "persona": {
+            "id": 28,
+            "age": 62,
+            "gender": "Non-binary",
+            "canton": "Aargau",
+            "language": "German",
+            "occupation": "Chef",
+            "education": "PhD",
+            "political_leaning": "Right",
+            "description": "A 62-year-old Non-binary from rural Aargau. Works as Chef and values sustainability. Enjoys watching football and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3658473491668701,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 29,
+        "persona": {
+            "id": 29,
+            "age": 30,
+            "gender": "Non-binary",
+            "canton": "Thurgau",
+            "language": "German",
+            "occupation": "Doctor",
+            "education": "PhD",
+            "political_leaning": "Right",
+            "description": "A 30-year-old Non-binary from rural Thurgau. Works as Doctor and values community. Enjoys technology and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "D",
+        "response_time": 0.8973691463470459,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 30,
+        "persona": {
+            "id": 30,
+            "age": 29,
+            "gender": "Female",
+            "canton": "Neuchâtel",
+            "language": "French",
+            "occupation": "Entrepreneur",
+            "education": "Bachelor",
+            "political_leaning": "Right",
+            "description": "A 29-year-old Female from rural Neuchâtel. Works as Entrepreneur and values freedom. Enjoys classical music and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.30689311027526855,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 31,
+        "persona": {
+            "id": 31,
+            "age": 38,
+            "gender": "Male",
+            "canton": "Ticino",
+            "language": "Italian",
+            "occupation": "Scientist",
+            "education": "PhD",
+            "political_leaning": "Left",
+            "description": "From the countryside of Ticino, this 38-year-old Male works in Scientist. Values security and enjoys reading."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.37345242500305176,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 32,
+        "persona": {
+            "id": 32,
+            "age": 67,
+            "gender": "Female",
+            "canton": "Aargau",
+            "language": "German",
+            "occupation": "Engineer",
+            "education": "Master",
+            "political_leaning": "Center-Right",
+            "description": "A 67-year-old Female from rural Aargau. Works as Engineer and values freedom. Enjoys volunteering and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'D'}.",
+        "response_time": 0.7261226177215576,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 33,
+        "persona": {
+            "id": 33,
+            "age": 47,
+            "gender": "Female",
+            "canton": "Vaud",
+            "language": "French",
+            "occupation": "Accountant",
+            "education": "Master",
+            "political_leaning": "Left",
+            "description": "City-dweller from Vaud, 47 years old. Accountant who cares deeply about community and spends free time skiing."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3913884162902832,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 34,
+        "persona": {
+            "id": 34,
+            "age": 56,
+            "gender": "Female",
+            "canton": "Aargau",
+            "language": "German",
+            "occupation": "Doctor",
+            "education": "PhD",
+            "political_leaning": "Left",
+            "description": "Rural Female aged 56 from Aargau canton. Doctor who appreciates privacy and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5610363483428955,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 35,
+        "persona": {
+            "id": 35,
+            "age": 48,
+            "gender": "Male",
+            "canton": "Vaud",
+            "language": "French",
+            "occupation": "Chef",
+            "education": "Vocational Training",
+            "political_leaning": "Right",
+            "description": "A 48-year-old Male from rural Vaud. Works as Chef and values freedom. Enjoys skiing and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'C'}.",
+        "response_time": 0.9220445156097412,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 36,
+        "persona": {
+            "id": 36,
+            "age": 73,
+            "gender": "Non-binary",
+            "canton": "Bern",
+            "language": "German",
+            "occupation": "Mechanic",
+            "education": "Vocational Training",
+            "political_leaning": "Center",
+            "description": "Rural Non-binary aged 73 from Bern canton. Mechanic who appreciates family and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "Answer: B",
+        "response_time": 0.814305305480957,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 37,
+        "persona": {
+            "id": 37,
+            "age": 24,
+            "gender": "Female",
+            "canton": "Zurich",
+            "language": "German",
+            "occupation": "Architect",
+            "education": "Master",
+            "political_leaning": "Right",
+            "description": "A 24-year-old Female from Zurich who works as a Architect and values innovation. Lives in the city and enjoys skiing."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'A'}. This persona would likely maintain complete secrecy regarding Swiss banking policies.",
+        "response_time": 1.620262622833252,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 38,
+        "persona": {
+            "id": 38,
+            "age": 64,
+            "gender": "Male",
+            "canton": "Ticino",
+            "language": "Italian",
+            "occupation": "Architect",
+            "education": "PhD",
+            "political_leaning": "Left",
+            "description": "Rural Male aged 64 from Ticino canton. Architect who appreciates innovation and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.6726119518280029,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 39,
+        "persona": {
+            "id": 39,
+            "age": 52,
+            "gender": "Non-binary",
+            "canton": "Vaud",
+            "language": "French",
+            "occupation": "Chef",
+            "education": "Compulsory School",
+            "political_leaning": "Center-Right",
+            "description": "City-dweller from Vaud, 52 years old. Chef who cares deeply about efficiency and spends free time cooking traditional Swiss food."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.6385910511016846,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 40,
+        "persona": {
+            "id": 40,
+            "age": 25,
+            "gender": "Non-binary",
+            "canton": "Zurich",
+            "language": "German",
+            "occupation": "Banker",
+            "education": "PhD",
+            "political_leaning": "Apolitical",
+            "description": "A 25-year-old Non-binary from Zurich who works as a Banker and values quality. Lives in the city and enjoys hiking in the Alps."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5391397476196289,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 41,
+        "persona": {
+            "id": 41,
+            "age": 75,
+            "gender": "Female",
+            "canton": "St. Gallen",
+            "language": "German",
+            "occupation": "Lawyer",
+            "education": "PhD",
+            "political_leaning": "Left",
+            "description": "Rural Female aged 75 from St. Gallen canton. Lawyer who appreciates privacy and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5238337516784668,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 42,
+        "persona": {
+            "id": 42,
+            "age": 57,
+            "gender": "Male",
+            "canton": "Lucerne",
+            "language": "German",
+            "occupation": "Scientist",
+            "education": "Master",
+            "political_leaning": "Right",
+            "description": "A 57-year-old Male from rural Lucerne. Works as Scientist and values community. Enjoys local politics and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'D'}.",
+        "response_time": 0.914820671081543,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 43,
+        "persona": {
+            "id": 43,
+            "age": 59,
+            "gender": "Male",
+            "canton": "Ticino",
+            "language": "Italian",
+            "occupation": "IT Specialist",
+            "education": "High School",
+            "political_leaning": "Left",
+            "description": "From the countryside of Ticino, this 59-year-old Male works in IT Specialist. Values innovation and enjoys technology."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3579256534576416,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 44,
+        "persona": {
+            "id": 44,
+            "age": 36,
+            "gender": "Non-binary",
+            "canton": "Geneva",
+            "language": "French",
+            "occupation": "IT Specialist",
+            "education": "PhD",
+            "political_leaning": "Left",
+            "description": "A 36-year-old Non-binary from Geneva who works as a IT Specialist and values innovation. Lives in the city and enjoys local politics."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5473322868347168,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 45,
+        "persona": {
+            "id": 45,
+            "age": 44,
+            "gender": "Female",
+            "canton": "Zurich",
+            "language": "German",
+            "occupation": "Architect",
+            "education": "Master",
+            "political_leaning": "Center",
+            "description": "City-dweller from Zurich, 44 years old. Architect who cares deeply about tradition and spends free time classical music."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'A'}",
+        "response_time": 0.6601762771606445,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 46,
+        "persona": {
+            "id": 46,
+            "age": 87,
+            "gender": "Non-binary",
+            "canton": "Aargau",
+            "language": "German",
+            "occupation": "Social Worker",
+            "education": "Master",
+            "political_leaning": "Left",
+            "description": "A 87-year-old Non-binary from rural Aargau. Works as Social Worker and values quality. Enjoys classical music and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'C'}. This persona values transparency, community life, and quality. As a Social Worker, they likely work towards improving the well-being of individuals and society as a whole. Thus, they may advocate for more transparency in banking policies to ensure accountability and prevent potential harm.",
+        "response_time": 3.152841329574585,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 47,
+        "persona": {
+            "id": 47,
+            "age": 27,
+            "gender": "Female",
+            "canton": "Aargau",
+            "language": "German",
+            "occupation": "Engineer",
+            "education": "Compulsory School",
+            "political_leaning": "Center-Right",
+            "description": "Rural Female aged 27 from Aargau canton. Engineer who appreciates freedom and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5580549240112305,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 48,
+        "persona": {
+            "id": 48,
+            "age": 75,
+            "gender": "Non-binary",
+            "canton": "Lucerne",
+            "language": "German",
+            "occupation": "Teacher",
+            "education": "Compulsory School",
+            "political_leaning": "Right",
+            "description": "From the countryside of Lucerne, this 75-year-old Non-binary works in Teacher. Values tradition and enjoys skiing."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.36170339584350586,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 49,
+        "persona": {
+            "id": 49,
+            "age": 34,
+            "gender": "Female",
+            "canton": "Aargau",
+            "language": "German",
+            "occupation": "Chef",
+            "education": "Bachelor",
+            "political_leaning": "Right",
+            "description": "A 34-year-old Female from rural Aargau. Works as Chef and values quality. Enjoys hiking in the Alps and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.31183886528015137,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 50,
+        "persona": {
+            "id": 50,
+            "age": 37,
+            "gender": "Non-binary",
+            "canton": "Zurich",
+            "language": "German",
+            "occupation": "Student",
+            "education": "Master",
+            "political_leaning": "Left",
+            "description": "Urban professional Non-binary aged 37 from Zurich. Working in Student with Master background. Passionate about security."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'C'}. This persona would likely support some level of transparency in Swiss banking secrecy policies, while still valuing the importance of privacy and security. They may feel that limited transparency allows for some balance between these competing priorities.",
+        "response_time": 2.6808021068573,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 51,
+        "persona": {
+            "id": 51,
+            "age": 25,
+            "gender": "Non-binary",
+            "canton": "Geneva",
+            "language": "French",
+            "occupation": "Pharmacist",
+            "education": "High School",
+            "political_leaning": "Apolitical",
+            "description": "Urban professional Non-binary aged 25 from Geneva. Working in Pharmacist with High School background. Passionate about community."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.35530877113342285,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 52,
+        "persona": {
+            "id": 52,
+            "age": 49,
+            "gender": "Non-binary",
+            "canton": "Vaud",
+            "language": "French",
+            "occupation": "Artist",
+            "education": "High School",
+            "political_leaning": "Right",
+            "description": "City-dweller from Vaud, 49 years old. Artist who cares deeply about efficiency and spends free time technology."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.538811445236206,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 53,
+        "persona": {
+            "id": 53,
+            "age": 38,
+            "gender": "Female",
+            "canton": "Vaud",
+            "language": "French",
+            "occupation": "Scientist",
+            "education": "PhD",
+            "political_leaning": "Right",
+            "description": "City-dweller from Vaud, 38 years old. Scientist who cares deeply about family and spends free time watching football."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5310401916503906,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 54,
+        "persona": {
+            "id": 54,
+            "age": 64,
+            "gender": "Male",
+            "canton": "Bern",
+            "language": "German",
+            "occupation": "Entrepreneur",
+            "education": "Master",
+            "political_leaning": "Left",
+            "description": "City-dweller from Bern, 64 years old. Entrepreneur who cares deeply about innovation and spends free time cooking traditional Swiss food."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.22237420082092285,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 55,
+        "persona": {
+            "id": 55,
+            "age": 48,
+            "gender": "Male",
+            "canton": "Ticino",
+            "language": "Italian",
+            "occupation": "Mechanic",
+            "education": "Master",
+            "political_leaning": "Left",
+            "description": "A 48-year-old Male from rural Ticino. Works as Mechanic and values community. Enjoys local politics and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5543944835662842,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 56,
+        "persona": {
+            "id": 56,
+            "age": 84,
+            "gender": "Non-binary",
+            "canton": "Zurich",
+            "language": "German",
+            "occupation": "Doctor",
+            "education": "PhD",
+            "political_leaning": "Center-Right",
+            "description": "A 84-year-old Non-binary from Zurich who works as a Doctor and values privacy. Lives in the city and enjoys technology."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'C'}",
+        "response_time": 0.8815000057220459,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 57,
+        "persona": {
+            "id": 57,
+            "age": 19,
+            "gender": "Female",
+            "canton": "Neuchâtel",
+            "language": "French",
+            "occupation": "Artist",
+            "education": "PhD",
+            "political_leaning": "Left",
+            "description": "Rural Female aged 19 from Neuchâtel canton. Artist who appreciates tradition and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5330760478973389,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 58,
+        "persona": {
+            "id": 58,
+            "age": 29,
+            "gender": "Male",
+            "canton": "Bern",
+            "language": "German",
+            "occupation": "Electrician",
+            "education": "Bachelor",
+            "political_leaning": "Right",
+            "description": "A 29-year-old Male from rural Bern. Works as Electrician and values innovation. Enjoys gardening and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'A'}.",
+        "response_time": 0.7053318023681641,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 59,
+        "persona": {
+            "id": 59,
+            "age": 67,
+            "gender": "Male",
+            "canton": "St. Gallen",
+            "language": "German",
+            "occupation": "IT Specialist",
+            "education": "PhD",
+            "political_leaning": "Left",
+            "description": "From the countryside of St. Gallen, this 67-year-old Male works in IT Specialist. Values quality and enjoys hiking in the Alps."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.7914199829101562,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 60,
+        "persona": {
+            "id": 60,
+            "age": 89,
+            "gender": "Female",
+            "canton": "Schwyz",
+            "language": "German",
+            "occupation": "IT Specialist",
+            "education": "High School",
+            "political_leaning": "Center-Right",
+            "description": "From the countryside of Schwyz, this 89-year-old Female works in IT Specialist. Values sustainability and enjoys technology."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3668375015258789,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 61,
+        "persona": {
+            "id": 61,
+            "age": 77,
+            "gender": "Female",
+            "canton": "Graubünden",
+            "language": "German",
+            "occupation": "Teacher",
+            "education": "High School",
+            "political_leaning": "Left",
+            "description": "A 77-year-old Female from rural Graubünden. Works as Teacher and values privacy. Enjoys technology and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3883676528930664,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 62,
+        "persona": {
+            "id": 62,
+            "age": 88,
+            "gender": "Male",
+            "canton": "Zurich",
+            "language": "German",
+            "occupation": "Doctor",
+            "education": "PhD",
+            "political_leaning": "Center-Right",
+            "description": "From the countryside of Zurich, this 88-year-old Male works in Doctor. Values community and enjoys hiking in the Alps."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "Answer: B",
+        "response_time": 0.5165095329284668,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 63,
+        "persona": {
+            "id": 63,
+            "age": 26,
+            "gender": "Non-binary",
+            "canton": "Geneva",
+            "language": "French",
+            "occupation": "Mechanic",
+            "education": "Compulsory School",
+            "political_leaning": "Center-Left",
+            "description": "Urban professional Non-binary aged 26 from Geneva. Working in Mechanic with Compulsory School background. Passionate about freedom."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.357208251953125,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 64,
+        "persona": {
+            "id": 64,
+            "age": 33,
+            "gender": "Female",
+            "canton": "Graubünden",
+            "language": "German",
+            "occupation": "Police Officer",
+            "education": "PhD",
+            "political_leaning": "Center-Left",
+            "description": "From the countryside of Graubünden, this 33-year-old Female works in Police Officer. Values freedom and enjoys classical music."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3382227420806885,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 65,
+        "persona": {
+            "id": 65,
+            "age": 60,
+            "gender": "Female",
+            "canton": "Vaud",
+            "language": "French",
+            "occupation": "Entrepreneur",
+            "education": "Compulsory School",
+            "political_leaning": "Center",
+            "description": "City-dweller from Vaud, 60 years old. Entrepreneur who cares deeply about tradition and spends free time technology."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3171577453613281,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 66,
+        "persona": {
+            "id": 66,
+            "age": 73,
+            "gender": "Non-binary",
+            "canton": "Basel-Stadt",
+            "language": "German",
+            "occupation": "Artist",
+            "education": "High School",
+            "political_leaning": "Left",
+            "description": "A 73-year-old Non-binary from rural Basel-Stadt. Works as Artist and values privacy. Enjoys watching football and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3193173408508301,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 67,
+        "persona": {
+            "id": 67,
+            "age": 79,
+            "gender": "Female",
+            "canton": "Aargau",
+            "language": "German",
+            "occupation": "Pharmacist",
+            "education": "PhD",
+            "political_leaning": "Center-Right",
+            "description": "Rural Female aged 79 from Aargau canton. Pharmacist who appreciates efficiency and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.34628772735595703,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 68,
+        "persona": {
+            "id": 68,
+            "age": 89,
+            "gender": "Female",
+            "canton": "Bern",
+            "language": "German",
+            "occupation": "Student",
+            "education": "High School",
+            "political_leaning": "Right",
+            "description": "A 89-year-old Female from Bern who works as a Student and values innovation. Lives in the city and enjoys hiking in the Alps."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'C'}.",
+        "response_time": 0.6577458381652832,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 69,
+        "persona": {
+            "id": 69,
+            "age": 50,
+            "gender": "Non-binary",
+            "canton": "Aargau",
+            "language": "German",
+            "occupation": "Student",
+            "education": "High School",
+            "political_leaning": "Center",
+            "description": "From the countryside of Aargau, this 50-year-old Non-binary works in Student. Values efficiency and enjoys hiking in the Alps."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.228651762008667,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 70,
+        "persona": {
+            "id": 70,
+            "age": 73,
+            "gender": "Male",
+            "canton": "St. Gallen",
+            "language": "German",
+            "occupation": "Banker",
+            "education": "Bachelor",
+            "political_leaning": "Left",
+            "description": "Rural Male aged 73 from St. Gallen canton. Banker who appreciates sustainability and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "Answer: B",
+        "response_time": 0.5890111923217773,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 71,
+        "persona": {
+            "id": 71,
+            "age": 62,
+            "gender": "Female",
+            "canton": "Bern",
+            "language": "German",
+            "occupation": "Lawyer",
+            "education": "PhD",
+            "political_leaning": "Right",
+            "description": "Urban professional Female aged 62 from Bern. Working in Lawyer with PhD background. Passionate about freedom."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'A'}.",
+        "response_time": 0.7518203258514404,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 72,
+        "persona": {
+            "id": 72,
+            "age": 41,
+            "gender": "Male",
+            "canton": "Bern",
+            "language": "German",
+            "occupation": "Farmer",
+            "education": "Bachelor",
+            "political_leaning": "Apolitical",
+            "description": "City-dweller from Bern, 41 years old. Farmer who cares deeply about tradition and spends free time watching football."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.361722469329834,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 73,
+        "persona": {
+            "id": 73,
+            "age": 72,
+            "gender": "Non-binary",
+            "canton": "Zurich",
+            "language": "German",
+            "occupation": "Entrepreneur",
+            "education": "Compulsory School",
+            "political_leaning": "Center",
+            "description": "City-dweller from Zurich, 72 years old. Entrepreneur who cares deeply about tradition and spends free time volunteering."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.30928897857666016,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 74,
+        "persona": {
+            "id": 74,
+            "age": 70,
+            "gender": "Non-binary",
+            "canton": "Ticino",
+            "language": "Italian",
+            "occupation": "Chef",
+            "education": "PhD",
+            "political_leaning": "Right",
+            "description": "From the countryside of Ticino, this 70-year-old Non-binary works in Chef. Values sustainability and enjoys skiing."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.37987232208251953,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 75,
+        "persona": {
+            "id": 75,
+            "age": 70,
+            "gender": "Non-binary",
+            "canton": "Bern",
+            "language": "German",
+            "occupation": "Electrician",
+            "education": "PhD",
+            "political_leaning": "Right",
+            "description": "City-dweller from Bern, 70 years old. Electrician who cares deeply about efficiency and spends free time cooking traditional Swiss food."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.36190104484558105,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 76,
+        "persona": {
+            "id": 76,
+            "age": 23,
+            "gender": "Male",
+            "canton": "St. Gallen",
+            "language": "German",
+            "occupation": "Doctor",
+            "education": "Master",
+            "political_leaning": "Left",
+            "description": "From the countryside of St. Gallen, this 23-year-old Male works in Doctor. Values privacy and enjoys hiking in the Alps."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3193361759185791,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 77,
+        "persona": {
+            "id": 77,
+            "age": 82,
+            "gender": "Female",
+            "canton": "Valais",
+            "language": "French",
+            "occupation": "Artist",
+            "education": "High School",
+            "political_leaning": "Right",
+            "description": "Rural Female aged 82 from Valais canton. Artist who appreciates quality and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'C'}. This persona would likely advocate for limited transparency in Swiss banking secrecy policies. They may appreciate the traditional Swiss values of privacy and confidentiality, but also recognize the need for some level of transparency to ensure accountability and prevent abuse.",
+        "response_time": 2.8414554595947266,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 78,
+        "persona": {
+            "id": 78,
+            "age": 65,
+            "gender": "Non-binary",
+            "canton": "Geneva",
+            "language": "French",
+            "occupation": "Banker",
+            "education": "Bachelor",
+            "political_leaning": "Left",
+            "description": "A 65-year-old Non-binary from Geneva who works as a Banker and values quality. Lives in the city and enjoys hiking in the Alps."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'A'}.",
+        "response_time": 0.764096736907959,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 79,
+        "persona": {
+            "id": 79,
+            "age": 21,
+            "gender": "Male",
+            "canton": "Valais",
+            "language": "French",
+            "occupation": "Retired",
+            "education": "Compulsory School",
+            "political_leaning": "Center-Right",
+            "description": "From the countryside of Valais, this 21-year-old Male works in Retired. Values sustainability and enjoys skiing."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.37912845611572266,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 80,
+        "persona": {
+            "id": 80,
+            "age": 34,
+            "gender": "Male",
+            "canton": "Geneva",
+            "language": "French",
+            "occupation": "Chef",
+            "education": "Vocational Training",
+            "political_leaning": "Right",
+            "description": "A 34-year-old Male from Geneva who works as a Chef and values tradition. Lives in the city and enjoys hiking in the Alps."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3430912494659424,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 81,
+        "persona": {
+            "id": 81,
+            "age": 90,
+            "gender": "Female",
+            "canton": "Vaud",
+            "language": "French",
+            "occupation": "Pharmacist",
+            "education": "PhD",
+            "political_leaning": "Right",
+            "description": "Urban professional Female aged 90 from Vaud. Working in Pharmacist with PhD background. Passionate about privacy."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3266735076904297,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 82,
+        "persona": {
+            "id": 82,
+            "age": 69,
+            "gender": "Non-binary",
+            "canton": "Vaud",
+            "language": "French",
+            "occupation": "Scientist",
+            "education": "Master",
+            "political_leaning": "Center",
+            "description": "A 69-year-old Non-binary from Vaud who works as a Scientist and values security. Lives in the city and enjoys local politics."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3300309181213379,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 83,
+        "persona": {
+            "id": 83,
+            "age": 38,
+            "gender": "Non-binary",
+            "canton": "Vaud",
+            "language": "French",
+            "occupation": "Pharmacist",
+            "education": "Vocational Training",
+            "political_leaning": "Left",
+            "description": "Urban professional Non-binary aged 38 from Vaud. Working in Pharmacist with Vocational Training background. Passionate about community."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'C'}.",
+        "response_time": 0.6676127910614014,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 84,
+        "persona": {
+            "id": 84,
+            "age": 37,
+            "gender": "Female",
+            "canton": "Lucerne",
+            "language": "German",
+            "occupation": "Police Officer",
+            "education": "Bachelor",
+            "political_leaning": "Right",
+            "description": "A 37-year-old Female from rural Lucerne. Works as Police Officer and values freedom. Enjoys gardening and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "B",
+        "response_time": 0.9749510288238525,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 85,
+        "persona": {
+            "id": 85,
+            "age": 86,
+            "gender": "Male",
+            "canton": "Vaud",
+            "language": "French",
+            "occupation": "Electrician",
+            "education": "Master",
+            "political_leaning": "Right",
+            "description": "A 86-year-old Male from rural Vaud. Works as Electrician and values efficiency. Enjoys skiing and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'A'}.",
+        "response_time": 0.6419055461883545,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 86,
+        "persona": {
+            "id": 86,
+            "age": 64,
+            "gender": "Female",
+            "canton": "St. Gallen",
+            "language": "German",
+            "occupation": "Social Worker",
+            "education": "Bachelor",
+            "political_leaning": "Left",
+            "description": "A 64-year-old Female from rural St. Gallen. Works as Social Worker and values sustainability. Enjoys skiing and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.27096056938171387,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 87,
+        "persona": {
+            "id": 87,
+            "age": 35,
+            "gender": "Female",
+            "canton": "Bern",
+            "language": "German",
+            "occupation": "Architect",
+            "education": "PhD",
+            "political_leaning": "Right",
+            "description": "A 35-year-old Female from Bern who works as a Architect and values community. Lives in the city and enjoys technology."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.2079925537109375,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 88,
+        "persona": {
+            "id": 88,
+            "age": 35,
+            "gender": "Female",
+            "canton": "Basel-Stadt",
+            "language": "German",
+            "occupation": "Architect",
+            "education": "Master",
+            "political_leaning": "Left",
+            "description": "Urban professional Female aged 35 from Basel-Stadt. Working in Architect with Master background. Passionate about freedom."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'D'}.",
+        "response_time": 0.7319962978363037,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 89,
+        "persona": {
+            "id": 89,
+            "age": 74,
+            "gender": "Non-binary",
+            "canton": "Lucerne",
+            "language": "German",
+            "occupation": "Police Officer",
+            "education": "Compulsory School",
+            "political_leaning": "Right",
+            "description": "Rural Non-binary aged 74 from Lucerne canton. Police Officer who appreciates quality and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.3631002902984619,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 90,
+        "persona": {
+            "id": 90,
+            "age": 46,
+            "gender": "Male",
+            "canton": "Zurich",
+            "language": "German",
+            "occupation": "Teacher",
+            "education": "High School",
+            "political_leaning": "Apolitical",
+            "description": "Urban professional Male aged 46 from Zurich. Working in Teacher with High School background. Passionate about tradition."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.35005950927734375,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 91,
+        "persona": {
+            "id": 91,
+            "age": 65,
+            "gender": "Female",
+            "canton": "Neuchâtel",
+            "language": "French",
+            "occupation": "Nurse",
+            "education": "Master",
+            "political_leaning": "Left",
+            "description": "From the countryside of Neuchâtel, this 65-year-old Female works in Nurse. Values innovation and enjoys gardening."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5503804683685303,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 92,
+        "persona": {
+            "id": 92,
+            "age": 64,
+            "gender": "Non-binary",
+            "canton": "Solothurn",
+            "language": "German",
+            "occupation": "Lawyer",
+            "education": "PhD",
+            "political_leaning": "Right",
+            "description": "Rural Non-binary aged 64 from Solothurn canton. Lawyer who appreciates innovation and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'C'}.",
+        "response_time": 0.7299785614013672,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 93,
+        "persona": {
+            "id": 93,
+            "age": 27,
+            "gender": "Female",
+            "canton": "Zurich",
+            "language": "German",
+            "occupation": "Banker",
+            "education": "Bachelor",
+            "political_leaning": "Right",
+            "description": "A 27-year-old Female from rural Zurich. Works as Banker and values sustainability. Enjoys watching football and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5453588962554932,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 94,
+        "persona": {
+            "id": 94,
+            "age": 55,
+            "gender": "Non-binary",
+            "canton": "Bern",
+            "language": "German",
+            "occupation": "Accountant",
+            "education": "High School",
+            "political_leaning": "Right",
+            "description": "A 55-year-old Non-binary from Bern who works as a Accountant and values community. Lives in the city and enjoys hiking in the Alps."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "{'answer': 'C'}. This persona would likely advocate for some level of transparency in Swiss banking secrecy policies, as they value community and may see the benefits of increased transparency in building trust within the community. However, they may also recognize the importance of maintaining certain levels of privacy for individuals and businesses.",
+        "response_time": 3.4504199028015137,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 95,
+        "persona": {
+            "id": 95,
+            "age": 26,
+            "gender": "Female",
+            "canton": "Valais",
+            "language": "French",
+            "occupation": "Scientist",
+            "education": "PhD",
+            "political_leaning": "Left",
+            "description": "From the countryside of Valais, this 26-year-old Female works in Scientist. Values efficiency and enjoys skiing."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.5160613059997559,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 96,
+        "persona": {
+            "id": 96,
+            "age": 31,
+            "gender": "Male",
+            "canton": "Aargau",
+            "language": "German",
+            "occupation": "IT Specialist",
+            "education": "Compulsory School",
+            "political_leaning": "Right",
+            "description": "From the countryside of Aargau, this 31-year-old Male works in IT Specialist. Values tradition and enjoys local politics."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.34047627449035645,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 97,
+        "persona": {
+            "id": 97,
+            "age": 85,
+            "gender": "Non-binary",
+            "canton": "Valais",
+            "language": "French",
+            "occupation": "Social Worker",
+            "education": "Bachelor",
+            "political_leaning": "Left",
+            "description": "Rural Non-binary aged 85 from Valais canton. Social Worker who appreciates community and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "A",
+        "response_time": 0.992142915725708,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 98,
+        "persona": {
+            "id": 98,
+            "age": 79,
+            "gender": "Male",
+            "canton": "St. Gallen",
+            "language": "German",
+            "occupation": "Farmer",
+            "education": "High School",
+            "political_leaning": "Center-Right",
+            "description": "Rural Male aged 79 from St. Gallen canton. Farmer who appreciates family and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.4103095531463623,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 99,
+        "persona": {
+            "id": 99,
+            "age": 74,
+            "gender": "Male",
+            "canton": "Valais",
+            "language": "French",
+            "occupation": "Social Worker",
+            "education": "Compulsory School",
+            "political_leaning": "Center-Right",
+            "description": "Rural Male aged 74 from Valais canton. Social Worker who appreciates innovation and traditional Swiss culture."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "",
+        "response_time": 0.409609317779541,
+        "success": true,
+        "error_message": null
+    },
+    {
+        "persona_id": 100,
+        "persona": {
+            "id": 100,
+            "age": 55,
+            "gender": "Male",
+            "canton": "Thurgau",
+            "language": "German",
+            "occupation": "Artist",
+            "education": "PhD",
+            "political_leaning": "Left",
+            "description": "A 55-year-old Male from rural Thurgau. Works as Artist and values tradition. Enjoys hiking in the Alps and community life."
+        },
+        "question": "What do you think about Swiss banking secrecy policies? A) Maintain complete secrecy B) Limited transparency C) Full transparency D) Abolish banking secrecy",
+        "answer": "Answer: A\n\nExplanation: As an artist who values tradition and a citizen from a rural canton, this persona may be more inclined towards maintaining the status quo and preserving Swiss banking secrecy policies.",
+        "response_time": 2.3622968196868896,
+        "success": true,
+        "error_message": null
+    }
+]
