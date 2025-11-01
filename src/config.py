@@ -1,4 +1,4 @@
-"""Configuration management for the market research simulator."""
+"""Configuration management for market research simulator."""
 
 import os
 from dataclasses import dataclass
@@ -7,6 +7,9 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
+
+# Import unified concurrency management
+from .concurrency import get_concurrency_manager, set_max_concurrent
 
 
 @dataclass
@@ -31,12 +34,20 @@ class ModelConfig:
 
 @dataclass
 class ConcurrencyConfig:
-    """Concurrency configuration."""
+    """Concurrency configuration with unified management."""
     max_concurrent: int = 100
     request_delay: float = 0.02  # Minimal delay between requests
     max_retries: int = 2
     timeout_total: int = 60
     timeout_connect: int = 10
+    
+    def __post_init__(self):
+        """Initialize concurrency manager after config creation."""
+        # Set global MAX_CONCURRENT when config is created
+        set_max_concurrent(self.max_concurrent)
+        
+        # Initialize the global concurrency manager
+        self.manager = get_concurrency_manager(self.max_concurrent)
 
 
 @dataclass
@@ -82,8 +93,9 @@ class AppConfig:
         )
         
         # Concurrency configuration
+        max_concurrent = int(os.getenv('MAX_CONCURRENT', '100'))
         concurrency_config = ConcurrencyConfig(
-            max_concurrent=int(os.getenv('MAX_CONCURRENT', '100')),
+            max_concurrent=max_concurrent,
             request_delay=float(os.getenv('REQUEST_DELAY', '0.02')),
             max_retries=int(os.getenv('MAX_RETRIES', '2')),
             timeout_total=int(os.getenv('TIMEOUT_TOTAL', '60')),
@@ -129,4 +141,13 @@ class AppConfig:
         print(f"👥 Persona Count: {self.test.persona_count}")
         print(f"📄 Personas File: {self.test.personas_file}")
         print(f"❓ Questions: {len(self.test.questions)}")
+        
+        # Print concurrency manager metrics
+        if hasattr(self.concurrency, 'manager'):
+            self.concurrency.manager.print_summary()
+        
         print("=" * 50)
+    
+    def get_concurrency_manager(self):
+        """Get the unified concurrency manager."""
+        return self.concurrency.manager

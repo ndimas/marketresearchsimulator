@@ -3,7 +3,7 @@
 import json
 from typing import List, Dict, Any
 from .models import QueryResult, ResponseAnalysis
-from personas.models import Persona
+from ..personas.models import Persona
 
 
 class ResponseAnalyzer:

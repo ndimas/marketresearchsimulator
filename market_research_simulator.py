@@ -15,6 +15,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 from src.config import AppConfig
 from src.client import MarketResearchClient, ClientResult
 from src.personas.generator import SwissPersonaGenerator
+from src.concurrency import get_concurrency_manager
 
 
 class MarketResearchSimulator:
@@ -143,6 +144,10 @@ class MarketResearchSimulator:
         
         # Print configuration
         self.config.print_config()
+        
+        # Print unified concurrency summary
+        concurrency_manager = self.config.get_concurrency_manager()
+        concurrency_manager.print_summary()
         
         # Load personas
         personas = self.load_personas()

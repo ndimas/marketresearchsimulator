@@ -2,7 +2,7 @@
 
 from dataclasses import dataclass
 from typing import Optional, List, Dict, Any
-from personas.models import Persona
+from ..personas.models import Persona
 
 
 @dataclass

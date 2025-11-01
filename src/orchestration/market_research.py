@@ -7,9 +7,9 @@ from typing import List, Optional
 from dotenv import load_dotenv
 
 from .workflow import WorkflowConfig, WorkflowStep
-from personas import SwissPersonaGenerator, Persona
-from llm import LLMClient, MarketResearchQuery, ResponseAnalyzer
-from deployment import RunPodDeployer, DeploymentConfig
+from ..personas import SwissPersonaGenerator, Persona
+from ..llm import LLMClient, MarketResearchQuery, ResponseAnalyzer
+from ..deployment import RunPodDeployer, DeploymentConfig
 
 
 class SwissMarketResearchOrchestrator:

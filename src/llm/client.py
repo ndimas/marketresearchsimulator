@@ -6,7 +6,7 @@ import aiohttp
 import time
 from typing import List, Optional
 from .models import QueryResult, MarketResearchQuery
-from personas.models import Persona
+from ..personas.models import Persona
 
 
 class LLMClient:

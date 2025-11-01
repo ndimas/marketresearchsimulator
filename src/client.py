@@ -11,6 +11,7 @@ from dataclasses import dataclass
 from .config import AppConfig, ModelConfig, ConcurrencyConfig
 from .personas.models import Persona
 from .llm.models import QueryResult
+from .concurrency import get_concurrency_manager
 
 
 @dataclass
@@ -208,20 +209,46 @@ Your response:"""
         )
     
     async def query_all_personas(self, personas: List[Persona], question: str) -> List[ClientResult]:
-        """Query all personas with the given question concurrently."""
+        """Query all personas with the given question concurrently using unified concurrency manager."""
+        # Get unified concurrency manager
+        concurrency_manager = self.config.get_concurrency_manager()
+        
         print(f"🚀 Querying {len(personas)} personas with {self.concurrency_config.max_concurrent} max concurrent requests")
         
-        max_concurrent = self.concurrency_config.max_concurrent
-        semaphore = asyncio.Semaphore(max_concurrent)
-        
         async def bounded_query(session: aiohttp.ClientSession, persona: Persona) -> ClientResult:
-            async with semaphore:
+            # Acquire slot from unified manager
+            request_id = await concurrency_manager.acquire(
+                request_type="llm_query",
+                metadata={"persona_id": persona.id, "question": question[:50]}
+            )
+            
+            try:
                 await asyncio.sleep(self.concurrency_config.request_delay)  # Configurable delay
-                return await self.query_persona(session, persona, question)
+                result = await self.query_persona(session, persona, question)
+                
+                # Release slot with metrics
+                concurrency_manager.release(
+                    request_id=request_id,
+                    success=result.query_result.success,
+                    response_time=result.processing_time,
+                    error=result.query_result.error_message
+                )
+                
+                return result
+                
+            except Exception as e:
+                # Release slot on error
+                concurrency_manager.release(
+                    request_id=request_id,
+                    success=False,
+                    response_time=time.time() - time.time(),
+                    error=str(e)
+                )
+                raise
         
         connector = aiohttp.TCPConnector(
-            limit=max_concurrent * 2,
-            limit_per_host=max_concurrent,
+            limit=self.concurrency_config.max_concurrent * 2,
+            limit_per_host=self.concurrency_config.max_concurrent,
             keepalive_timeout=30,
             enable_cleanup_closed=True
         )
