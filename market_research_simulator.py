@@ -324,10 +324,213 @@ class MarketResearchSimulator:
         print(f"💾 Summary saved to {summary_filename}")
         
         return summary_data
+    
+    async def run_full_survey_stress(self) -> Dict[str, Any]:
+        """Run the complete survey with stress test mode (fire all requests at once)."""
+        print("🚀 SWISS MARKET RESEARCH SIMULATOR - STRESS TEST MODE")
+        print("=" * 80)
+        print("🔥 Objective: MAXIMUM CONCURRENCY - FIRE ALL REQUESTS SIMULTANEOUSLY")
+        print("🎯 Purpose: Find breaking point of API and system")
+        print("📊 Purpose: Measure maximum throughput and failure patterns")
+        print("=" * 80)
+        
+        # Load personas
+        personas = self.load_personas()
+        
+        # Get questions for this run
+        questions = self.config.test.get_questions_for_run()
+        
+        print(f"\n📋 STRESS TEST CONFIGURATION:")
+        print(f"   👥 Personas: {len(personas)}")
+        print(f"   📝 Questions: {len(questions)} (randomly selected from pool of {len(self.config.test.question_pool)})")
+        print(f"   🔗 Endpoint: {self.config.model.endpoint_url}")
+        print(f"   🔥 MODE: UNLIMITED CONCURRENCY - NO RATE LIMITING")
+        
+        all_results = {}
+        survey_start_time = time.time()
+        
+        # Process each question with stress mode
+        for q_idx, question in enumerate(questions, 1):
+            question_result = await self.run_single_question_stress(personas, question, q_idx)
+            all_results[f'q{q_idx}'] = question_result
+            
+            # Brief pause between questions
+            if q_idx < len(questions):
+                print(f"⏸️ Brief pause before next question...")
+                await asyncio.sleep(2)
+        
+        total_survey_time = time.time() - survey_start_time
+        
+        # Calculate overall statistics
+        print(f"\n{'🔥'*20}")
+        print(f"🔥 STRESS TEST COMPLETED!")
+        print(f"{'🔥'*20}")
+        
+        print(f"\n📊 STRESS TEST RESULTS:")
+        print(f"⏱️ Total Duration: {total_survey_time:.2f}s")
+        print(f"👥 Total Personas Processed: {len(personas) * len(questions)}")
+        print(f"📝 Questions Processed: {len(questions)}")
+        
+        # Calculate averages
+        avg_success = sum(r['success_rate'] for r in all_results.values()) / len(all_results)
+        avg_quality = sum(r['quality_rate'] for r in all_results.values()) / len(all_results)
+        avg_throughput = sum(r['throughput'] for r in all_results.values()) / len(all_results)
+        avg_left_accuracy = sum(r['left_accuracy'] for r in all_results.values()) / len(all_results)
+        avg_right_accuracy = sum(r['right_accuracy'] for r in all_results.values()) / len(all_results)
+        
+        print(f"\n📈 AVERAGE PERFORMANCE:")
+        print(f"✅ Success Rate: {avg_success:.1f}%")
+        print(f"🎯 Quality Rate: {avg_quality:.1f}%")
+        print(f"🔥 Throughput: {avg_throughput:.1f} personas/second")
+        print(f"🏛️ Political Alignment - Left: {avg_left_accuracy:.1f}%")
+        print(f"🏛️ Political Alignment - Right: {avg_right_accuracy:.1f}%")
+        
+        # Print detailed question statistics
+        self.print_question_statistics(all_results, questions)
+        
+        # Performance assessment
+        print(f"\n🎯 STRESS TEST ASSESSMENT:")
+        if avg_success >= 95:
+            print(f"🟢 EXCELLENT: System handles maximum concurrency well!")
+        elif avg_success >= 90:
+            print(f"🟡 GOOD: System mostly handles maximum load")
+        elif avg_success >= 80:
+            print(f"🟠 OK: System struggles but mostly works")
+        else:
+            print(f"🔴 POOR: System cannot handle maximum concurrency")
+        
+        print(f"\n📁 FILES CREATED:")
+        for q_idx in range(1, len(questions) + 1):
+            print(f"   - {self.config.test.results_prefix}_q{q_idx}.json")
+        
+        # Save summary
+        summary_data = {
+            'survey_config': {
+                'persona_count': len(personas),
+                'questions_count': len(questions),
+                'model_id': self.config.model.model_id,
+                'endpoint_url': self.config.model.endpoint_url,
+                'mode': 'STRESS_TEST'
+            },
+            'overall_metrics': {
+                'total_duration': total_survey_time,
+                'avg_success_rate': avg_success,
+                'avg_quality_rate': avg_quality,
+                'avg_throughput': avg_throughput,
+                'avg_left_accuracy': avg_left_accuracy,
+                'avg_right_accuracy': avg_right_accuracy
+            },
+            'question_results': all_results
+        }
+        
+        summary_filename = f'{self.config.test.results_prefix}_stress_summary.json'
+        with open(summary_filename, 'w', encoding='utf-8') as f:
+            json.dump(summary_data, f, indent=2, ensure_ascii=False)
+        
+        print(f"💾 Stress test summary saved to {summary_filename}")
+        
+        return summary_data
+    
+    async def run_single_question_stress(self, personas: List[Any], question: str, question_idx: int) -> Dict[str, Any]:
+        """Run a single question against all personas in stress mode (fire all at once)."""
+        print(f"\n{'='*80}")
+        print(f"📝 QUESTION {question_idx} - STRESS MODE")
+        print(f"❓ {question}")
+        print(f"{'='*80}")
+        
+        start_time = time.time()
+        
+        # Query all personas with stress mode (fire all at once)
+        results = await self.client.query_all_personas_stress(personas, question)
+        
+        end_time = time.time()
+        duration = end_time - start_time
+        
+        print(f"\n🏁 QUESTION {question_idx} COMPLETED!")
+        print(f"⏱️ Duration: {duration:.2f}s")
+        
+        # Print detailed summary
+        self.client.print_summary(results)
+        
+        # Calculate metrics
+        query_results = [r.query_result for r in results]
+        successful = [r for r in query_results if r.success]
+        failed = [r for r in query_results if not r.success]
+        
+        success_rate = len(successful) / len(query_results) * 100
+        throughput = len(query_results) / duration
+        
+        # Quality metrics
+        valid_letters = {'A', 'B', 'C', 'D'}
+        valid_choices = [r for r in successful if r.answer in valid_letters]
+        quality_rate = len(valid_choices) / len(query_results) * 100
+        
+        # Political alignment metrics
+        left_correct = 0
+        left_total = 0
+        right_correct = 0
+        right_total = 0
+        
+        for result in successful:
+            persona = result.persona
+            if persona.political_leaning in ['Left', 'Center-Left']:
+                left_total += 1
+                if result.answer in ['B', 'D']:  # SP or Green
+                    left_correct += 1
+            elif persona.political_leaning in ['Right', 'Center-Right']:
+                right_total += 1
+                if result.answer in ['A', 'C']:  # SVP or FDP
+                    right_correct += 1
+        
+        left_accuracy = left_correct / left_total * 100 if left_total > 0 else 0
+        right_accuracy = right_correct / right_total * 100 if right_total > 0 else 0
+        
+        # Prepare results for saving
+        results_data = []
+        for result in results:
+            results_data.append({
+                "persona_id": result.query_result.persona_id,
+                "persona": result.query_result.persona.__dict__,
+                "question": result.query_result.question,
+                "answer": result.query_result.answer,
+                "response_time": result.query_result.response_time,
+                "success": result.query_result.success,
+                "error_message": result.query_result.error_message,
+                "extraction_method": result.extraction_method,
+                "raw_content": result.raw_content,
+                "processing_time": result.processing_time
+            })
+        
+        # Save results
+        filename = f'{self.config.test.results_prefix}_q{question_idx}.json'
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(results_data, f, indent=2, ensure_ascii=False)
+        
+        print(f"💾 Results saved to {filename}")
+        
+        # Return metrics
+        return {
+            'question_idx': question_idx,
+            'question': question,
+            'duration': duration,
+            'success_rate': success_rate,
+            'quality_rate': quality_rate,
+            'throughput': throughput,
+            'left_accuracy': left_accuracy,
+            'right_accuracy': right_accuracy,
+            'total_queries': len(query_results),
+            'successful_queries': len(successful),
+            'failed_queries': len(failed)
+        }
 
 
 async def main():
     """Main entry point."""
+    import sys
+    
+    # Check for stress test mode
+    stress_mode = "--stress" in sys.argv or "--stress-test" in sys.argv
+    
     # Load configuration from environment or use demo config
     try:
         config = AppConfig.from_env()
@@ -338,7 +541,12 @@ async def main():
     
     # Create and run simulator
     simulator = MarketResearchSimulator(config)
-    results = await simulator.run_full_survey()
+    
+    if stress_mode:
+        print("🔥 STRESS TEST MODE ACTIVATED - FIRING ALL REQUESTS SIMULTANEOUSLY")
+        results = await simulator.run_full_survey_stress()
+    else:
+        results = await simulator.run_full_survey()
     
     print(f"\n🎉 Simulation completed successfully!")
     return results

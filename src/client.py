@@ -291,6 +291,103 @@ Your response:"""
             
             return all_results
     
+    async def query_all_personas_stress(self, personas: List[Persona], question: str) -> List[ClientResult]:
+        """Query all personas with given question using maximum concurrency (fire all at once)."""
+        print(f"🚀 FIRING {len(personas)} REQUESTS SIMULTANEOUSLY - NO RATE LIMITING")
+        
+        async def direct_query(session: aiohttp.ClientSession, persona: Persona) -> ClientResult:
+            """Direct query without any concurrency limits."""
+            try:
+                result = await self.query_persona(session, persona, question)
+                return result
+            except Exception as e:
+                # Create error result for exceptions
+                query_result = QueryResult(
+                    persona_id=persona.id,
+                    persona=persona,
+                    question=question,
+                    answer="",
+                    response_time=0,
+                    success=False,
+                    error_message=f"Exception: {str(e)}"
+                )
+                return ClientResult(
+                    query_result=query_result,
+                    extraction_method='exception',
+                    raw_content="",
+                    processing_time=0
+                )
+        
+        # Create session with high connection limits for maximum concurrency
+        connector = aiohttp.TCPConnector(
+            limit=len(personas) * 2,  # Allow many connections
+            limit_per_host=len(personas),  # Allow many to same host
+            keepalive_timeout=30,
+            enable_cleanup_closed=True
+        )
+        
+        timeout = aiohttp.ClientTimeout(
+            total=self.concurrency_config.timeout_total,
+            connect=self.concurrency_config.timeout_connect
+        )
+        
+        start_time = time.time()
+        
+        async with aiohttp.ClientSession(
+            connector=connector, 
+            timeout=timeout,
+            headers={"User-Agent": f"Market-Research-Client/2.0-Stress-Test"}
+        ) as session:
+            print(f"⚡ LAUNCHING ALL {len(personas)} REQUESTS AT ONCE...")
+            
+            # Fire all requests simultaneously - no semaphore, no delays
+            tasks = [direct_query(session, persona) for persona in personas]
+            results = await asyncio.gather(*tasks, return_exceptions=True)
+            
+            # Process results and exceptions
+            all_results = []
+            successful_count = 0
+            failed_count = 0
+            
+            for i, result in enumerate(results):
+                if isinstance(result, Exception):
+                    # Handle exceptions from gather
+                    query_result = QueryResult(
+                        persona_id=personas[i].id,
+                        persona=personas[i],
+                        question=question,
+                        answer="",
+                        response_time=0,
+                        success=False,
+                        error_message=f"Asyncio Exception: {str(result)}"
+                    )
+                    all_results.append(ClientResult(
+                        query_result=query_result,
+                        extraction_method='async_exception',
+                        raw_content="",
+                        processing_time=0
+                    ))
+                    failed_count += 1
+                else:
+                    all_results.append(result)
+                    if result.query_result.success:
+                        successful_count += 1
+                    else:
+                        failed_count += 1
+            
+            total_time = time.time() - start_time
+            
+            # Print stress test results
+            print(f"\n🔥 STRESS TEST RESULTS:")
+            print(f"   📊 Total Requests: {len(personas)}")
+            print(f"   ✅ Successful: {successful_count}")
+            print(f"   ❌ Failed: {failed_count}")
+            print(f"   ⏱️ Total Time: {total_time:.2f}s")
+            print(f"   🚀 Throughput: {len(personas)/total_time:.1f} requests/second")
+            print(f"   📈 Success Rate: {successful_count/len(personas)*100:.1f}%")
+            
+            return all_results
+    
     def print_extraction_stats(self, results: List[ClientResult]):
         """Print extraction method statistics."""
         extraction_methods = {}
