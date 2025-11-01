@@ -41,6 +41,85 @@ class MarketResearchSimulator:
         
         return personas[:self.config.test.persona_count]
     
+    def print_question_statistics(self, all_results: Dict[str, Any], questions: List[str]):
+        """Print detailed statistics for each question."""
+        print(f"\n📊 DETAILED QUESTION STATISTICS")
+        print("=" * 80)
+        
+        # Answer distribution for each question
+        for q_idx, question in enumerate(questions, 1):
+            result_key = f'q{q_idx}'
+            if result_key not in all_results:
+                continue
+                
+            result = all_results[result_key]
+            
+            print(f"\n❓ Question {q_idx}: {question[:60]}...")
+            print(f"   ⏱️ Duration: {result['duration']:.2f}s")
+            print(f"   ✅ Success Rate: {result['success_rate']:.1f}% ({result['successful_queries']}/{result['total_queries']})")
+            print(f"   🎯 Quality Rate: {result['quality_rate']:.1f}%")
+            print(f"   🔥 Throughput: {result['throughput']:.2f} personas/second")
+            
+            # Load results file to get answer distribution
+            try:
+                with open(f'{self.config.test.results_prefix}_q{q_idx}.json', 'r', encoding='utf-8') as f:
+                    results_data = json.load(f)
+                
+                # Count answer choices
+                answer_counts = {}
+                political_counts = {}
+                extraction_counts = {}
+                
+                for item in results_data:
+                    # Answer distribution
+                    answer = item.get('answer', 'Unknown')
+                    answer_counts[answer] = answer_counts.get(answer, 0) + 1
+                    
+                    # Political leaning distribution
+                    persona = item.get('persona', {})
+                    leaning = persona.get('political_leaning', 'Unknown')
+                    if leaning not in political_counts:
+                        political_counts[leaning] = {'A': 0, 'B': 0, 'C': 0, 'D': 0, 'Other': 0}
+                    
+                    if answer in ['A', 'B', 'C', 'D']:
+                        political_counts[leaning][answer] += 1
+                    else:
+                        political_counts[leaning]['Other'] += 1
+                    
+                    # Extraction method distribution
+                    method = item.get('extraction_method', 'unknown')
+                    extraction_counts[method] = extraction_counts.get(method, 0) + 1
+                
+                # Print answer distribution
+                print(f"   📈 Answer Distribution:")
+                for answer, count in sorted(answer_counts.items(), key=lambda x: x[1], reverse=True):
+                    percentage = count / len(results_data) * 100
+                    print(f"      {answer}: {count} ({percentage:.1f}%)")
+                
+                # Print political leaning breakdown
+                print(f"   🏛️ Political Leaning Breakdown:")
+                for leaning, answers in sorted(political_counts.items()):
+                    total = sum(answers.values())
+                    if total > 0:
+                        print(f"      {leaning}: {total} respondents")
+                        for choice, count in answers.items():
+                            if count > 0:
+                                percentage = count / total * 100
+                                print(f"         {choice}: {count} ({percentage:.1f}%)")
+                
+                # Print extraction methods
+                print(f"   🔧 Extraction Methods:")
+                for method, count in sorted(extraction_counts.items(), key=lambda x: x[1], reverse=True):
+                    percentage = count / len(results_data) * 100
+                    print(f"      {method}: {count} ({percentage:.1f}%)")
+                    
+            except FileNotFoundError:
+                print(f"   ⚠️ Results file not found for question {q_idx}")
+            except Exception as e:
+                print(f"   ❌ Error loading results for question {q_idx}: {e}")
+        
+        print("=" * 80)
+    
     async def run_single_question(self, personas: List[Any], question: str, question_idx: int) -> Dict[str, Any]:
         """Run a single question against all personas."""
         print(f"\n{'='*80}")
@@ -152,9 +231,12 @@ class MarketResearchSimulator:
         # Load personas
         personas = self.load_personas()
         
+        # Get questions for this run
+        questions = self.config.test.get_questions_for_run()
+        
         print(f"\n📋 SURVEY CONFIGURATION:")
         print(f"   👥 Personas: {len(personas)}")
-        print(f"   📝 Questions: {len(self.config.test.questions)}")
+        print(f"   📝 Questions: {len(questions)} (randomly selected from pool of {len(self.config.test.question_pool)})")
         print(f"   🔗 Endpoint: {self.config.model.endpoint_url}")
         print(f"   ⚡ Max Concurrent: {self.config.concurrency.max_concurrent}")
         
@@ -162,12 +244,12 @@ class MarketResearchSimulator:
         survey_start_time = time.time()
         
         # Process each question
-        for q_idx, question in enumerate(self.config.test.questions, 1):
+        for q_idx, question in enumerate(questions, 1):
             question_result = await self.run_single_question(personas, question, q_idx)
             all_results[f'q{q_idx}'] = question_result
             
             # Brief pause between questions
-            if q_idx < len(self.config.test.questions):
+            if q_idx < len(questions):
                 print(f"⏸️ Brief pause before next question...")
                 await asyncio.sleep(2)
         
@@ -180,8 +262,8 @@ class MarketResearchSimulator:
         
         print(f"\n📊 OVERALL PERFORMANCE:")
         print(f"⏱️ Total Duration: {total_survey_time:.2f}s")
-        print(f"👥 Total Personas Processed: {len(personas) * len(self.config.test.questions)}")
-        print(f"📝 Questions Processed: {len(self.config.test.questions)}")
+        print(f"👥 Total Personas Processed: {len(personas) * len(questions)}")
+        print(f"📝 Questions Processed: {len(questions)}")
         
         # Calculate averages
         avg_success = sum(r['success_rate'] for r in all_results.values()) / len(all_results)
@@ -197,6 +279,9 @@ class MarketResearchSimulator:
         print(f"🏛️ Political Alignment - Left: {avg_left_accuracy:.1f}%")
         print(f"🏛️ Political Alignment - Right: {avg_right_accuracy:.1f}%")
         
+        # Print detailed question statistics
+        self.print_question_statistics(all_results, questions)
+        
         # Performance assessment
         print(f"\n🎯 PERFORMANCE ASSESSMENT:")
         if avg_quality >= 95 and avg_left_accuracy >= 80 and avg_right_accuracy >= 80:
@@ -209,14 +294,14 @@ class MarketResearchSimulator:
             print(f"🔴 NEEDS IMPROVEMENT: Political alignment or quality issues detected")
         
         print(f"\n📁 FILES CREATED:")
-        for q_idx in range(1, len(self.config.test.questions) + 1):
+        for q_idx in range(1, len(questions) + 1):
             print(f"   - {self.config.test.results_prefix}_q{q_idx}.json")
         
         # Save summary
         summary_data = {
             'survey_config': {
                 'persona_count': len(personas),
-                'questions_count': len(self.config.test.questions),
+                'questions_count': len(questions),
                 'model_id': self.config.model.model_id,
                 'endpoint_url': self.config.model.endpoint_url,
                 'max_concurrent': self.config.concurrency.max_concurrent
